@@ -1,14 +1,14 @@
 ---
 layout: default
-title: О себе
+title: Рћ СЃРµР±Рµ
 ---
 
-# Меня зовут Артем  
+# РњРµРЅСЏ Р·РѕРІСѓС‚ РђСЂС‚РµРј  
 
-Я разработчик игр на Unity.  
-- ?? Люблю создавать игры  
-- ??? Пишу на C#  
-- ?? Связь: artemkuzminikh@gmail.com  
+РЇ СЂР°Р·СЂР°Р±РѕС‚С‡РёРє РёРіСЂ РЅР° Unity.  
+- Р›СЋР±Р»СЋ СЃРѕР·РґР°РІР°С‚СЊ РёРіСЂС‹  
+- РџРёС€Сѓ РЅР° C#  
+- РЎРІСЏР·СЊ: artemkuzminikh@gmail.com  
 
-[Мой GitHub](https://github.com/furyohfury)  
-[Мой itch.io](https://furyohfury.itch.io/)  
+[РњРѕР№ GitHub](https://github.com/furyohfury)  
+[РњРѕР№ itch.io](https://furyohfury.itch.io/)  
