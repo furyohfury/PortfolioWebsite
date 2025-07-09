@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "First"
-image: "/assets/images/game1-preview.jpg"  # Превью для карточки
+image: "/assets/images/game1-preview.jpg"  # РџСЂРµРІСЊСЋ РґР»СЏ РєР°СЂС‚РѕС‡РєРё
 ---
 
 # {{ page.title }}
@@ -9,18 +9,18 @@ image: "/assets/images/game1-preview.jpg"  # Превью для карточки
 <iframe 
   width="560" 
   height="315" 
-  src="https://www.youtube.com/embed/ВАШ_ID_ВИДЕО" 
+  src="https://www.youtube.com/embed/Р’РђРЁ_ID_Р’РР”Р•Рћ" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
 
-## Описание  
-Здесь опишите игру:  
-- Жанр  
-- Ваша роль в разработке  
-- Технологии (Unity, C#, Firebase и т.д.)  
+## РћРїРёСЃР°РЅРёРµ  
+Р—РґРµСЃСЊ РѕРїРёС€РёС‚Рµ РёРіСЂСѓ:  
+- Р–Р°РЅСЂ  
+- Р’Р°С€Р° СЂРѕР»СЊ РІ СЂР°Р·СЂР°Р±РѕС‚РєРµ  
+- РўРµС…РЅРѕР»РѕРіРёРё (Unity, C#, Firebase Рё С‚.Рґ.)  
 
-## Ссылки  
-- [GitHub](https://github.com/ваш-ник/репозиторий)  
-- [itch.io](https://ваш-ник.itch.io/игра)  
-- [Демо-версия](https://example.com)  
+## РЎСЃС‹Р»РєРё  
+- [GitHub](https://github.com/РІР°С€-РЅРёРє/СЂРµРїРѕР·РёС‚РѕСЂРёР№)  
+- [itch.io](https://РІР°С€-РЅРёРє.itch.io/РёРіСЂР°)  
+- [Р”РµРјРѕ-РІРµСЂСЃРёСЏ](https://example.com)  
