@@ -1,7 +1,7 @@
 ---
 layout: default
-title: "First"
-image: "/assets/images/game1-preview.jpg"  # Превью для карточки
+title: "Neon What"
+image: "/assets/images/game1-preview.png"  # Превью для карточки
 ---
 
 # {{ page.title }}
@@ -15,12 +15,15 @@ image: "/assets/images/game1-preview.jpg"  # Превью для карточк�
 </iframe>
 
 ## Описание  
-Здесь опишите игру:  
-- Жанр  
-- Ваша роль в разработке  
-- Технологии (Unity, C#, Firebase и т.д.)  
+2D платформер-пазл с уровнями на время. Клон игры Neon White
+
+## Технологии  
+- Atomic framework
+- Zenject
+- unity-ai (FSM)
+- DOTween
 
 ## Ссылки  
-- [GitHub](https://github.com/ваш-ник/репозиторий)  
+- [GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)  
 - [itch.io](https://ваш-ник.itch.io/игра)  
 - [Демо-версия](https://example.com)  
