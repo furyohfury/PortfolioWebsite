@@ -22,4 +22,4 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 
 ## Ссылки  
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)
-- ![Itch icon](https://static.itch.io/images/logo-black-new.svg){: .icon}[Билд для windows](https://ваш-ник.itch.io/игра)
+- ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Билд для windows](https://ваш-ник.itch.io/игра)
