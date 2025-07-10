@@ -24,6 +24,5 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 - DOTween
 
 ## Ссылки  
-- [GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)  
-- [itch.io](https://ваш-ник.itch.io/игра)  
-- [Демо-версия](https://example.com)  
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)  
+- [Itch icon](https://static.itch.io/images/logo-black-new.svg){: .icon}[itch.io](https://ваш-ник.itch.io/игра)

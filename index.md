@@ -1,7 +1,7 @@
 ---
 layout: default
 title: furyohfury's Unity портфолио
-description: null
+description: ""
 ---
 
 # Привет 👋
