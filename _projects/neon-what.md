@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Neon What"
-image: "/assets/images/game1-preview.png"  # Превью для карточки
+image: "/assets/images/neon-what-preview.png"  # Превью для карточки
 ---
 
 # {{ page.title }}
