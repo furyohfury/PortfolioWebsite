@@ -2,7 +2,7 @@
 layout: default
 title: "Totally not pikmin"
 description: "3D игра, наподобие Pikmin, в которой нужно взять на себя управление группой существ."
-image: "/assets/images/pikmin.png"  # Превью для карточки
+image: "/assets/images/pikmin-preview.png"  # Превью для карточки
 ---
 
 ## Геймплейное видео:
