@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Pikmin"
-image: "/assets/images/pikmin-preview.png"  # Превью для карточки
+title: "Totally not pikmin"
+description: "3D игра, наподобие Pikmin, в которой нужно взять на себя управление группой существ."
+image: "/assets/images/pikmin.png"  # Превью для карточки
 ---
 
-# {{ page.title }}
-
+## Геймплейное видео:
 <iframe 
   width="560" 
   height="315" 
@@ -14,13 +14,22 @@ image: "/assets/images/pikmin-preview.png"  # Превью для карточк
   allowfullscreen>
 </iframe>
 
-## Описание  
-Pikminao
+## Ссылки  
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/FreeRealEstate/tree/Pikmin)
+- ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows](https://furyohfury.itch.io/totally-not-pikmin)
 
 ## Технологии  
--nihuya
+= Unity Behaviour
+- R3
+- UniTask
+- DOTween
+- Zenject
 
-## Ссылки  
-- [GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)  
-- [itch.io](https://ваш-ник.itch.io/игра)  
-- [Демо-версия](https://example.com)  
+## Достигнутые в ходе работы цели
+- Изучение  работы с официальным AI фреймворком от Unity
+- Использование компонентного подхода monobehaviour'ов с помощью класса-фасада с интерфейсами
+- Создание модульной VFX системы
+- Создание модульной Audio системы
+- Создание катсцен с помощью Cinemachine и Timeline
+- Создание декалей с помощью URP
+- Создание renderer feature с помощью URP
