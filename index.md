@@ -8,8 +8,8 @@ description: ""
 Меня зовут Артем, я Unity-разработчик.
 На этом сайте вы можете посмотреть на прототипы(и не только) проектов, сделанных мной!
 ## Контакты:
-- Почта - [artemkuzminikh@gmail.com]artemkuzminikh@gmail.com
-- Телеграм - [t.me/artemkuzminikh](t.me/artemkuzminikh)
+- Почта - [artemkuzminikh@gmail.com](mailto:artemkuzminikh@gmail.com)
+- Телеграм - [t.me/artemkuzminikh](https://t.me/artemkuzminikh)
 - Телефон - +79670201329
 
 [Мой GitHub](https://github.com/furyohfury)  
