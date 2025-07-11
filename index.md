@@ -11,8 +11,8 @@ description: ""
 - Почта - [artemkuzminikh@gmail.com](mailto:artemkuzminikh@gmail.com)
 - Телеграм - [t.me/artemkuzminikh](https://t.me/artemkuzminikh)
 - Телефон - +79670201329
-- [Мой GitHub](https://github.com/furyohfury)  
-- [Мой itch.io](https://furyohfury.itch.io/)
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Мой GitHub](https://github.com/furyohfury)  
+- ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Мой itch.io](https://furyohfury.itch.io/)
 
 
 ## Мои проекты  

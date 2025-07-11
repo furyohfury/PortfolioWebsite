@@ -6,8 +6,8 @@ title: О себе
 Знаком с наиболее используемыми инструментами для разработки в Unity (Zenject, UniRx (R3), UniTask), а также паттернами MVX, принципами SOLID и GRASP.
 
 Успешно прошел следующие курсы:
-- Разработчик игр на Unity от Нетологии. [Сертификат](https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a)
-- Unity Pro от Otus. [Сертификат](https://otus.ru/certificate/623c6b6c538f41c783724021ccad985e/)
+- Разработчик игр на Unity от Нетологии. ![Netology icon](https://netology.ru/favicon-32x32.png){: .icon}[Сертификат](https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a)
+- Unity Pro от Otus. ![Otus icon](https://otus.ru/_next/static/images/img/favicon-16x16-3dc5220f18624c2a6fd3aa3b081da00a.png){: .icon}[Сертификат](https://otus.ru/certificate/623c6b6c538f41c783724021ccad985e/)
 
 На обучении:
 - перевел проект на ручной игровой цикл для большего контроля над игрой
