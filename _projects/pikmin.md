@@ -19,7 +19,7 @@ image: "/assets/images/pikmin-preview.png"  # Превью для карточк
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows](https://furyohfury.itch.io/totally-not-pikmin)
 
 ## Технологии  
-= Unity Behaviour
+- Unity Behaviour
 - R3
 - UniTask
 - DOTween
