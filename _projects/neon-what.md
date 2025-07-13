@@ -7,8 +7,8 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 
 ## Геймплейное видео:
 <iframe 
-  width="640" 
-  height="480" 
+  width="1280" 
+  height="720" 
   src="https://www.youtube.com/embed/pUgfg5Ovkwk" 
   frameborder="0" 
   allowfullscreen>

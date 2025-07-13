@@ -7,16 +7,14 @@ image: "/assets/images/zero-resistance-preview.png"  # Превью для ка�
 
 ## Геймплейное видео:
 <iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/ВАШ_ID_ВИДЕО" 
+  width="1280" 
+  height="720" 
+  src="https://www.youtube.com/embed/3abxonV4zNg" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
 
 ## Ссылки  
-- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project) 
-[//]: добавить гитхаб
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, WebGl](https://furyohfury.itch.io/zeroresistanceweb3)
 
 ## Технологии  

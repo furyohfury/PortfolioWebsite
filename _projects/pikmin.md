@@ -7,9 +7,9 @@ image: "/assets/images/pikmin-preview.png"  # Превью для карточк
 
 ## Геймплейное видео:
 <iframe 
-  width="560" 
-  height="315" 
-  src="https://www.youtube.com/embed/ВАШ_ID_ВИДЕО" 
+  width="1280" 
+  height="720" 
+  src="https://www.youtube.com/embed/Ymxn-hAhA-U" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
