@@ -5,25 +5,17 @@ description: "2D платформер-пазл с уровнями на врем
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
 ---
 
-## Геймплейное видео:
-<iframe 
-  width="960" 
-  height="540" 
-  src="https://www.youtube.com/embed/pUgfg5Ovkwk" 
-  frameborder="0" 
-  allowfullscreen>
-</iframe>
 
 ## Скриншоты
 <div style="display: flex; gap: 10px;">
-    <a href="{{ image | relative_url }}" target="_blank">
-        <img src="{{ image | relative_url }}" width="100" />
+    <a href="/assets/images/neon-what-preview.png" target="_blank">
+        <img src="/assets/images/neon-what-preview.png" width="100" />
     </a>
-    <a href="{{ image | relative_url }}" target="_blank">
-        <img src="{{ image | relative_url }}" width="100" />
+    <a href="/assets/images/neon-what-preview.png" target="_blank">
+        <img src="/assets/images/neon-what-preview.png" width="100" />
     </a>
-    <a href="{{ image | relative_url }}" target="_blank">
-        <img src="{{ image | relative_url }}" width="100" />
+    <a href="/assets/images/neon-what-preview.png" target="_blank">
+        <img src="/assets/images/neon-what-preview.png" width="100" />
     </a>
 </div>
 
