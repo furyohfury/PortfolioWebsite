@@ -17,13 +17,13 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 ## Скриншоты
 <div class="gallery">
     <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
-        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="1280" alt="Описание1">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" alt="Описание1" class="project-image">
     </a>
     <a href="{{ '/assets/images/pikmin-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание2">
-        <img src="{{ '/assets/images/pikmin-preview.png' | relative_url }}" width="1280" alt="Описание2">
+        <img src="{{ '/assets/images/pikmin-preview.png' | relative_url }}" alt="Описание2" class="project-image">
     </a>
     <a href="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
-        <img src="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" width="1280" alt="Описание3">
+        <img src="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" alt="Описание3" class="project-image">
     </a>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
@@ -33,7 +33,11 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
         'resizeDuration': 200,
         'wrapAround': true,
         'fadeDuration': 200,
-        'disableScrolling': true
+        'disableScrolling': true,
+        'fitImagesInViewport': false,
+        'maxWidth': 1280,
+        'maxHeight': 720,
+        'positionFromTop': 100
     })
 </script>
 
