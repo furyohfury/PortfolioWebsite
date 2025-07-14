@@ -8,14 +8,14 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 
 ## Скриншоты
 <div style="display: flex; gap: 10px;">
-    <a href="/assets/images/neon-what-preview.png" target="_blank">
-        <img src="/assets/images/neon-what-preview.png" width="100" />
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
     </a>
-    <a href="/assets/images/neon-what-preview.png" target="_blank">
-        <img src="/assets/images/neon-what-preview.png" width="100" />
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
     </a>
-    <a href="/assets/images/neon-what-preview.png" target="_blank">
-        <img src="/assets/images/neon-what-preview.png" width="100" />
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
     </a>
 </div>
 
