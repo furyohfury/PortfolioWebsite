@@ -16,7 +16,7 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
     <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
         <img src="{{ '/assets/images/background.jpg' | relative_url }}" alt="Описание3" class="project-image">
     </a> -->
-    {% for screenshot in site.assets.images.gamesscreenshots %}
+    {% for screenshot in site.assets.images.gamesscreenshots.neon-what %}
   <a href="{{ screenshot | relative_url }}" data-lightbox="gallery" data-title="Описание1">
         <img src="{{ screenshot | relative_url }}" alt="Описание1" class="project-image">
     </a>
