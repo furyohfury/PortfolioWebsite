@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: game-page
 title: "Neon What"
 description: "2D платформер-пазл с уровнями на время. Клон игры Neon White"
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
@@ -13,6 +13,29 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
   frameborder="0" 
   allowfullscreen>
 </iframe>
+
+## Скриншоты
+<div class="gallery">
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="1280" alt="Описание1">
+    </a>
+    <a href="{{ '/assets/images/pikmin-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание2">
+        <img src="{{ '/assets/images/pikmin-preview.png' | relative_url }}" width="1280" alt="Описание2">
+    </a>
+    <a href="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
+        <img src="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" width="1280" alt="Описание3">
+    </a>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
+<script>
+    // Инициализация с настройками
+    lightbox.option({
+        'resizeDuration': 200,
+        'wrapAround': true,
+        'fadeDuration': 200,
+        'disableScrolling': true
+    })
+</script>
 
 ## Ссылки  
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)

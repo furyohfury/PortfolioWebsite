@@ -6,19 +6,6 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 ---
 
 ## Скриншоты
-<div style="display: flex; gap: 10px;">
-    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
-        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
-    </a>
-    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
-        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
-    </a>
-    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" target="_blank">
-        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="100" />
-    </a>
-</div>
-
-## Скриншоты с превью
 <div class="gallery">
     <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
         <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="150" alt="Описание1">
