@@ -14,33 +14,6 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
   allowfullscreen>
 </iframe>
 
-## Скриншоты
-<div class="gallery">
-    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
-        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" alt="Описание1" class="project-image">
-    </a>
-    <a href="{{ '/assets/images/pikmin-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание2">
-        <img src="{{ '/assets/images/pikmin-preview.png' | relative_url }}" alt="Описание2" class="project-image">
-    </a>
-    <a href="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
-        <img src="{{ '/assets/images/zero-resistance-preview.png' | relative_url }}" alt="Описание3" class="project-image">
-    </a>
-</div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
-<script>
-    // Инициализация с настройками
-    lightbox.option({
-        'resizeDuration': 200,
-        'wrapAround': true,
-        'fadeDuration': 200,
-        'disableScrolling': true,
-        'fitImagesInViewport': false,
-        'maxWidth': 1280,
-        'maxHeight': 720,
-        'positionFromTop': 100
-    })
-</script>
-
 ## Ссылки  
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, Android](https://furyohfury.itch.io/neon-what)
