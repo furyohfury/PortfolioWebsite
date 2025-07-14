@@ -4,7 +4,7 @@ title: "Neon What"
 description: "2D платформер-пазл с уровнями на время. Клон игры Neon White"
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
 ---
-
+{% include gallery.html %}
 
 ## Скриншоты
 <div style="display: flex; gap: 10px;">
