@@ -18,7 +18,7 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
     </a> -->
     {% for screenshot in site.neon-what-screenshots %}
   <a href="{{ screenshot.image | relative_url }}" data-lightbox="gallery" data-title="Скриншот">
-        <img src="{{ screenshot.image | relative_url }}}" alt="Скриншот" class="project-image">
+        <img src="{{ screenshot.image | relative_url }}" alt="Скриншот" class="project-image">
     </a>
 {% endfor %}
 </div> 
