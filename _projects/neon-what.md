@@ -9,7 +9,7 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 <iframe 
   width="960" 
   height="540" 
-  src="https://www.youtube.com/embed/pUgfg5Ovkwk" 
+  src="https://www.youtube.com/embed/q-3dstQtX5M" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
