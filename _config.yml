@@ -17,3 +17,9 @@ collections:
   neon-what-screenshots:
     output: false
     permalink: /neon-what-screenshots/:name/
+  pikmin-screenshots:
+    output: false
+    permalink: /pikmin-screenshots/:name/
+  zero-resistance-screenshots:
+    output: false
+    permalink: /zero-resistance-screenshots/:name/

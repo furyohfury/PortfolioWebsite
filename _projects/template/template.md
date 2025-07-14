@@ -7,17 +7,14 @@ image: "/assets/images/IMAGE.png"  # Превью для карточки
 ---
 
 ## Скриншоты
-<div class="gallery">
-    <a href="{{ '/assets/images/IMAGE' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
-        <img src="{{ '/assets/images/IMAGE' | relative_url }}" alt="Описание1" class="project-image">
+ <div class="gallery">
+    {% for screenshot in site.neon-what-screenshots %}
+  <a href="{{ screenshot.image | relative_url }}" data-lightbox="gallery" data-title="Скриншот">
+        <img src="{{ screenshot.image | relative_url }}" alt="Скриншот" class="project-image">
     </a>
-    <a href="{{ '/assets/images/IMAGE' | relative_url }}" data-lightbox="gallery" data-title="Описание2">
-        <img src="{{ '/assets/images/IMAGE' | relative_url }}" alt="Описание2" class="project-image">
-    </a>
-    <a href="{{ '/assets/images/IMAGE' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
-        <img src="{{ '/assets/images/IMAGE' | relative_url }}" alt="Описание3" class="project-image">
-    </a>
-</div>
+{% endfor %}
+</div> 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 <script>
     // Инициализация с настройками
