@@ -5,6 +5,14 @@ description: "2D платформер-пазл с уровнями на врем
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
 ---
 
+<div class="video-grid">
+<iframe 
+  width="960" 
+  height="540" 
+  src="https://www.youtube.com/embed/q-3dstQtX5M" 
+  frameborder="0" 
+  allowfullscreen>
+</iframe>
 <iframe 
 src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239017&hd=2&hash=ddcc9bb9b15d6a76" 
 width="853" height="480" 
@@ -12,6 +20,7 @@ allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lo
 frameborder="0" 
 allowfullscreen>
 </iframe>
+</div>
 
 ## Скриншоты
  <div class="gallery">

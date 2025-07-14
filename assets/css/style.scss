@@ -20,3 +20,9 @@
   gap: 20px; /* Расстояние между карточками */
   margin: 20px 0;
 }
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+  gap: 10px; /* Расстояние между карточками */
+  margin: 20px 0;
+}
