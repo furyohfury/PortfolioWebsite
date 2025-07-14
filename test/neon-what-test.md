@@ -19,6 +19,25 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
     </a>
 </div>
 
+## Скриншоты с превью
+<!-- Подключаем стили Lightbox -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+
+<!-- Галерея с превью -->
+<div style="display: flex; gap: 10px; margin: 20px 0;">
+    <!-- Первая картинка -->
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание 1">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="150" />
+    </a>
+    <!-- Вторая картинка -->
+    <a href="{{ '/assets/images/neon-what-preview.png' | relative_url }}" data-lightbox="gallery" data-title="Описание 2">
+        <img src="{{ '/assets/images/neon-what-preview.png' | relative_url }}" width="150" />
+    </a>
+</div>
+
+<!-- Подключаем скрипт Lightbox -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+
 ## Ссылки  
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Project)
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, Android](https://furyohfury.itch.io/neon-what)
