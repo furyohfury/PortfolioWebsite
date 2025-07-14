@@ -20,7 +20,10 @@ description: ""
 {% for project in site.projects %}
   <div class="game-card">
     <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
-    <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image">
+    <a href="{{ project.image | relative_url }}">
+        <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image" />
+    </a>
+    <!-- <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image"> -->
   </div>
 {% endfor %}
 </div>
