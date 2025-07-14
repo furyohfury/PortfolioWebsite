@@ -6,8 +6,8 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
 ---
 
 ## Скриншоты
-<!-- <div class="gallery">
-    <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
+ <div class="gallery">
+<!--  <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание1">
         <img src="{{ '/assets/images/background.jpg' | relative_url }}" alt="Описание1" class="project-image">
     </a>
     <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание2">
@@ -15,13 +15,14 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
     </a>
     <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
         <img src="{{ '/assets/images/background.jpg' | relative_url }}" alt="Описание3" class="project-image">
-    </a>
-</div> -->
-{% for screenshot in site.assets.images.gamesscreenshots %}
+    </a> -->
+    {% for screenshot in site.assets.images.gamesscreenshots %}
   <a href="{{ screenshot | relative_url }}" data-lightbox="gallery" data-title="Описание1">
         <img src="{{ screenshot | relative_url }}" alt="Описание1" class="project-image">
     </a>
 {% endfor %}
+</div> 
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 <script>
     // Инициализация с настройками
