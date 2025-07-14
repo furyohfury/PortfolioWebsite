@@ -5,14 +5,23 @@ description: "2D сайдскроллер в космосе. Разработа�
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
 ---
 
-## Геймплейное видео:
+## Геймплейное видео:  
+<div class="video-grid">
 <iframe 
-  width="960" 
-  height="540" 
+  width="853" 
+  height="480" 
   src="https://www.youtube.com/embed/3abxonV4zNg" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
+<iframe 
+src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239018&hd=2&hash=5e5939ef087a8e31" 
+width="853" height="480" 
+allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
+</div>
 
 ## Скриншоты
  <div class="gallery">
