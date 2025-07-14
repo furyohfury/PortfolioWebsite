@@ -16,9 +16,9 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
     <a href="{{ '/assets/images/background.jpg' | relative_url }}" data-lightbox="gallery" data-title="Описание3">
         <img src="{{ '/assets/images/background.jpg' | relative_url }}" alt="Описание3" class="project-image">
     </a> -->
-    {% for folder in site.screenshots %}
-  <a href="{{ folder | relative_url }}/neon-what" data-lightbox="gallery" data-title="Скриншот">
-        <img src="{{ folder | relative_url }}}/neon-what" alt="Скриншот" class="project-image">
+    {% for screenshot in site.neon-what-screenshots %}
+  <a href="{{ screenshot.image | relative_url }}" data-lightbox="gallery" data-title="Скриншот">
+        <img src="{{ screenshot.image | relative_url }}}" alt="Скриншот" class="project-image">
     </a>
 {% endfor %}
 </div> 
