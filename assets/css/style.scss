@@ -22,7 +22,8 @@
 }
 .video-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
-  gap: 10px; /* Расстояние между карточками */
+  grid-template-columns: repeat(2, auto); /* Автоширина, чтобы контент определял размер */
+  justify-content: center; /* Центрирует всю сетку по горизонтали */
+  gap: 20px; /* Расстояние между видео */
   margin: 20px 0;
 }
