@@ -14,3 +14,9 @@
   vertical-align: middle;
   margin-right: 5px;
 }
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
+  gap: 20px; /* Расстояние между карточками */
+  margin: 20px 0;
+}
