@@ -24,7 +24,7 @@ image: "/assets/images/neon-what-preview.png"  # Превью для карто�
         'resizeDuration': 200,
         'wrapAround': true,
         'fadeDuration': 200,
-        'disableScrolling': true,
+        'disableScrolling': false,
         'fitImagesInViewport': false,
         'maxWidth': 1280,
         'maxHeight': 720,
