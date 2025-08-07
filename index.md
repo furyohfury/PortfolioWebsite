@@ -13,6 +13,7 @@ description: ""
 - Телефон - +79670201329
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Мой GitHub](https://github.com/furyohfury)  
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Мой itch.io](https://furyohfury.itch.io/)
+- ![HH icon](https://i.hh.ru/images/logos/svg/hh.ru.svg){: .icon}[Резюме на hh](https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761)
 
 
 ## Мои проекты  
