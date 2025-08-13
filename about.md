@@ -19,3 +19,5 @@ title: О себе
 и др.😅
 
 Ориентирован на начало работы в команде, чтобы учиться работать над настоящими проектами 😄.
+<script data-goatcounter="https://MYCODE.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
