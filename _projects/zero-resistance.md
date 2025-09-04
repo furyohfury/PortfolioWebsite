@@ -3,6 +3,7 @@ layout: game-page
 title: "Zero resistance"
 description: "2D сайдскроллер в космосе. Разработана в ходе геймджема"
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
+priority: 3
 ---
 
 ## Геймплейное видео:  

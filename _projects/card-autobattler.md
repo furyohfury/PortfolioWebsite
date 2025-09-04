@@ -3,6 +3,7 @@ layout: game-page
 title: "Card auto-battler"
 description: "Карточный автобатлер"
 image: "/assets/images/card-autobattler-preview.png"  # Превью для карточки
+priority: 4
 ---
 
 ## Геймплейное видео:
