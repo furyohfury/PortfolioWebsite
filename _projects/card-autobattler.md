@@ -14,7 +14,7 @@ image: "/assets/images/card-autobattler-preview.png"  # Превью для ка
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239020&hd=2&hash=dbdb1be04ce6dbaa&autoplay=1" width="853" height="480" style="background-color: #000" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239020&hd=2&hash=dbdb1be04ce6dbaa&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Скриншоты
