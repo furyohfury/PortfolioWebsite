@@ -16,6 +16,7 @@ priority: 4
   allowfullscreen>
 </iframe>
 <iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239021&hd=2&hash=baa042c8113ad7f7&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Скриншоты
  <div class="gallery">
