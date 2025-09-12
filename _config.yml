@@ -23,3 +23,9 @@ collections:
   zero-resistance-screenshots:
     output: false
     permalink: /zero-resistance-screenshots/:name/
+  card-autobattler-screenshots:
+    output: false
+    permalink: /card-autobattler-screenshots/:name/
+  money-run-screenshots:
+    output: false
+    permalink: /money-run-screenshots/:name/
