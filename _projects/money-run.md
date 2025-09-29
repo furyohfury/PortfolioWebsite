@@ -3,7 +3,7 @@ layout: game-page
 title: "Money run"
 description: "Казуальный 3D раннер"
 image: "/assets/images/money-run-preview.png"  # Превью для карточки
-priority: 4
+priority: 5
 ---
 
 ## Геймплейное видео:

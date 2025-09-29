@@ -29,3 +29,6 @@ collections:
   money-run-screenshots:
     output: false
     permalink: /money-run-screenshots/:name/
+  taiko-screenshots:
+    output: false
+    permalink: /taiko-screenshots/:name/
