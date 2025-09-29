@@ -1,4 +1,4 @@
 ---
-image: /assets/images/screenshots/taiko/4.jpg
+image: /assets/images/screenshots/taiko/4.png
 title: "Скриншот Taiko"
 ---
