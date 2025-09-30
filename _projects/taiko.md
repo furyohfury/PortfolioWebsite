@@ -6,7 +6,7 @@ image: "/assets/images/taiko-preview.png"  # Превью для карточк�
 priority: 3
 ---
 
-## Геймплейное видео:
+<!--## Геймплейное видео:
 <div class="video-grid">
 <iframe 
   width="853" 
@@ -22,7 +22,7 @@ allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lo
 frameborder="0" 
 allowfullscreen>
 </iframe>
-</div>
+</div>-->
 
 ## Скриншоты
  <div class="gallery">
