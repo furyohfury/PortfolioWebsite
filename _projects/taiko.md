@@ -6,23 +6,17 @@ image: "/assets/images/taiko-preview.png"  # Превью для карточк�
 priority: 3
 ---
 
-<!--## Геймплейное видео:
+## Геймплейное видео:
 <div class="video-grid">
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/q-3dstQtX5M" 
+  src="https://www.youtube.com/embed/Rv4SX6Viylc" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe 
-src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239017&hd=2&hash=ddcc9bb9b15d6a76" 
-width="853" height="480" 
-allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
-frameborder="0" 
-allowfullscreen>
-</iframe>
-</div>-->
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239022&hd=2&hash=c26e640104b6f2cc&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ## Скриншоты
  <div class="gallery">
