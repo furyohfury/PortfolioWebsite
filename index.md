@@ -34,17 +34,20 @@ title: Мое Unity портфолио
     </div>
 
     <div class="info-block">
-    <h3>Мои проекты</h3>
-    <div class="game-grid">
-      {% assign sorted_projects = site.projects | sort: "priority" %}
-      {% for project in sorted_projects %}
-        <div class="game-card">
-          <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>
-          <img src="{{ project.image | relative_url }}" class="project-image" />
-        </div>
-      {% endfor %}
-    </div>
+  <h3>Мои проекты</h3>
+  <div class="game-grid">
+    {% assign sorted_projects = site.projects | sort: "priority" %}
+    {% for project in sorted_projects %}
+      <div class="game-card">
+        <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>
+        
+        <a href="{{ project.url | relative_url }}">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image" />
+        </a>
+      </div>
+    {% endfor %}
   </div>
+</div>
 
   </div>
 
