@@ -25,13 +25,21 @@ allowfullscreen>
 </div>
 
 ## Скриншоты
- <div class="gallery">
-    {% for screenshot in site.zero-resistance-screenshots %}
-  <a href="{{ screenshot.image | relative_url }}" data-lightbox="gallery" data-title="Скриншот">
-        <img src="{{ screenshot.image | relative_url }}" alt="Скриншот" class="project-image">
+<div class="gallery">
+  {% for screenshot in site.zero-resistance-screenshots %}
+    <a href="{{ screenshot.image | relative_url }}" 
+       data-lightbox="gallery" 
+       data-title="Скриншот"
+       {% if forloop.first == false %} style="display: none;" {% endif %}>
+       
+       <img src="{{ screenshot.image | relative_url }}" alt="Скриншот" class="project-image">
+       
+       {% if forloop.first %}
+         <p style="text-align: center; cursor: pointer;">📸 Нажмите, чтобы посмотреть все скриншоты</p>
+       {% endif %}
     </a>
-{% endfor %}
-</div> 
+  {% endfor %}
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox-plus-jquery.min.js"></script>
 <script>
