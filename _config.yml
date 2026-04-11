@@ -32,3 +32,6 @@ collections:
   taiko-screenshots:
     output: false
     permalink: /taiko-screenshots/:name/
+  iron-frontier-screenshots:
+    output: false
+    permalink: /iron-frontier-screenshots/:name/
