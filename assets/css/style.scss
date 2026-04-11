@@ -27,3 +27,33 @@
   gap: 20px; /* Расстояние между видео */
   margin: 20px 0;
 }
+
+/* Контейнер для двух колонок */
+.two-column-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 30px; /* Отступ между колонками */
+  margin-top: 20px;
+
+  /* На мобильных устройствах колонки станут друг под другом */
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
+}
+
+/* Настройка ширины колонок */
+.column-left {
+  flex: 2; /* Занимает 2 части пространства (шире) */
+}
+
+.column-right {
+  flex: 1; /* Занимает 1 часть пространства (уже) */
+}
+
+/* Стили для блоков внутри колонок */
+.info-block {
+  margin-bottom: 20px;
+  padding: 15px;
+  background: #f0f4f7;
+  border-radius: 8px;
+}
