@@ -2,11 +2,11 @@
 ---
 
 @import "{{ site.theme }}";
+/* На всякий случай добавим ограничение для картинок внутри карточек */
 .project-image {
-  width: 200px;  /* Фиксированная ширина */
-  height: auto;  /* Автоматическая высота (сохраняет пропорции) */
-  /* или */
-  // max-width: 100%; /* Ограничивает ширину, но не растягивает */
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
 .icon {
   width: 25px;
@@ -16,9 +16,11 @@
 }
 .game-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 колонки */
-  gap: 20px; /* Расстояние между карточками */
+  /* 'auto-fill' сам решит, сколько колонок влезет исходя из min ширины (например, 200px) */
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
+  gap: 20px;
   margin: 20px 0;
+  width: 100%; /* Чтобы сетка не выходила за границы колонки */
 }
 .video-grid {
   display: grid;
