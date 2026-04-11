@@ -7,24 +7,14 @@ title: Мое Unity портфолио
 
 <div class="info-block" markdown="1">
 
-##Контакты
-  <ul>
-    <li>
-      - Почта - [artemkuzminikh@gmail.com](mailto:artemkuzminikh@gmail.com)
-    </li>
-    <li>
-      - Телеграм - [t.me/artemkuzminikh](https://t.me/artemkuzminikh)
-    </li>
-    <li>
-      - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Мой GitHub](https://github.com/furyohfury)  
-    </li>
-    <li>
-      - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Мой itch.io](https://furyohfury.itch.io/)
-    </li>
-    <li>
-      - ![HH icon](https://i.hh.ru/images/logos/svg/hh.ru.svg){: .icon}[Резюме на hh](https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761)
-    </li>
-  </ul>
+### Контакты
+
+* **Почта:** [artemkuzminikh@gmail.com](mailto:artemkuzminikh@gmail.com)
+* **Телеграм:** [t.me/artemkuzminikh](https://t.me/artemkuzminikh)
+* **Github:** ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon} [Мой GitHub](https://github.com/furyohfury)
+* **itch.io:** ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon} [Мой itch.io](https://furyohfury.itch.io/)
+* **hh.ru:** ![HH icon](https://i.hh.ru/images/logos/svg/hh.ru.svg){: .icon} [Резюме на hh](https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761)
+
 </div>
 
 <div class="two-column-layout">
