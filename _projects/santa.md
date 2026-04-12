@@ -11,12 +11,12 @@ priority: 0
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/C0BmLHdaJBw" 
+  src="https://www.youtube.com/embed/uxJ3RavduUo" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
 <iframe 
-src="https://vk.com/video_ext.php?oid=-227503186&id=456239030&autoplay=0" 
+src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023" 
 width="853" height="480" 
 allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
 frameborder="0" 
