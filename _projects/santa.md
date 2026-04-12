@@ -3,7 +3,7 @@ layout: game-page
 title: "Don't upset the Santa"
 description: "Казуальная игра про сортировку с возможностью удаленного редактирования конфигов"
 image: "/assets/images/santa-preview.png"  # Превью для карточки
-priority: 0
+priority: -1
 ---
 
 ## Геймплейное видео:
@@ -15,13 +15,7 @@ priority: 0
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe 
-src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023" 
-width="853" height="480" 
-allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
-frameborder="0" 
-allowfullscreen>
-</iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023&hash=eb36a0dfb8f81cc6&hd=4" width="1920" height="1080" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## Скриншоты
@@ -71,3 +65,4 @@ allowfullscreen>
 - Реализация лидербордов, показа rewarded рекламы, аналитики(Метрика) через SDK яндекс игр
 - Применение паттерна стратегия для реализации указанных выше систем, так что возможна подстановка других реализаций под разные платформы (планируется билд под android с SDK вроде admob или др.)
 - Использование эффектов пост-процессинга для визуальной смены дня и ночи
+- Архитектура проекта не была приоритетом, за ней нужно смотреть другие проекты портфолио
