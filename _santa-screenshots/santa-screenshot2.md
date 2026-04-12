@@ -1,4 +1,4 @@
 ---
-image: /assets/images/screenshots/santa/3.png
+image: /assets/images/screenshots/santa/4.jpg
 title: "Скриншот Don't upset the Santa"
 ---
