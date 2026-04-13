@@ -73,11 +73,15 @@ title: Мое Unity портфолио
       <h3>Курсы</h3>
       <ul>
         <li><b>Отус</b><br>
+<img src="https://netology.ru/favicon-32x32.png" class="icon" alt="Netology icon">
+<a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">Сертификат</a>
 05.2024 - 03.2025<br>
 Обучение на курсе Unity Game Developer. Professional<br>
 - Разработка прототипов на движке Unity<br>
 - Изучение принципов архитектуры проектов<br></li>
         <li><b>Нетология</b><br>
+<img src="https://otus.ru/static/img/favicons/favicon-32x32.png" class="icon" alt="OTUS icon">
+<a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">Сертификат</a>
 04.2023 - 03.2024<br>
 Обучение на курсе Разработчик игр на Unity.<br>
 - Изучение основ движка Unity<br>
