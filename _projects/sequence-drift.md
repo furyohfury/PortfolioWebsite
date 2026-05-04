@@ -2,7 +2,7 @@
 layout: game-page
 title: "Sequence drift"
 description: "Разработка игры в ходе Ludum dare 59 в паре с художником"
-image: "/assets/images/sequence-drift-preview"  # Превью для карточки
+image: "/assets/images/sequence-drift-preview.jpg"  # Превью для карточки
 priority: -2
 ---
 
