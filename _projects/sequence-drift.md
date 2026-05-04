@@ -7,12 +7,11 @@ priority: -2
 ---
 
 ## Играть в браузере:
-<div class="video-container">
+<div class="video-grid">
   <iframe 
-    src="https://itch.io/embed-upload/17238634?color=333333" 
-    allowfullscreen="" 
-    width="100%" 
-    height="100%">
+    src="{{ '/games/my-cool-game/index.html' | relative_url }}" 
+    style="width: 100%; aspect-ratio: 16 / 9; border: none;"
+    allowfullscreen>
   </iframe>
 </div>
 
