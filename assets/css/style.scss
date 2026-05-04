@@ -77,3 +77,20 @@
   background: #f0f4f7;
   border-radius: 8px;
 }
+
+.video-container {
+  display: flex;
+  justify-content: center; /* Центрирует по горизонтали */
+  align-items: center;
+  margin: 40px 0;         /* Отступы сверху и снизу */
+  width: 100%;
+  overflow: hidden;       /* Чтобы ничего не вылетало за границы */
+}
+
+.video-container iframe {
+  max-width: 100%;        /* Не дает плееру быть шире экрана */
+  height: auto;           /* Позволяет высоте подстраиваться под ширину */
+  aspect-ratio: 16 / 9;   /* Сохраняет пропорции Unity-плеера */
+  border-radius: 10px;    /* Скругляет углы для стиля */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2); /* Добавляет объем */
+}

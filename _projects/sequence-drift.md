@@ -7,7 +7,14 @@ priority: -2
 ---
 
 ## Играть в браузере:
-<iframe frameborder="0" src="https://itch.io/embed-upload/17238634?color=333333" allowfullscreen="" width="1280" height="720"><a href="https://furyohfury.itch.io/sequence-drift">Play Sequence Drift on itch.io</a></iframe>
+<div class="video-container">
+  <iframe 
+    src="https://itch.io/embed-upload/17238634?color=333333" 
+    allowfullscreen="" 
+    frameborder="0">
+    <a href="https://furyohfury.itch.io/sequence-drift">Play Sequence Drift on itch.io</a>
+  </iframe>
+</div>
 
 ## Скриншоты
 <div class="gallery">
