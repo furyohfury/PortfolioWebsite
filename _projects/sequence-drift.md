@@ -9,7 +9,7 @@ priority: -2
 ## Играть в браузере:
 <div class="video-grid">
   <iframe 
-    src="{{ '/games/my-cool-game/index.html' | relative_url }}" 
+    src="{{ '/builds/sequence-drift/index.html' | relative_url }}" 
     style="width: 100%; aspect-ratio: 16 / 9; border: none;"
     allowfullscreen>
   </iframe>
