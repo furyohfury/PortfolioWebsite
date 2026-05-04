@@ -11,8 +11,8 @@ priority: -2
   <iframe 
     src="https://itch.io/embed-upload/17238634?color=333333" 
     allowfullscreen="" 
-    frameborder="0">
-    <a href="https://furyohfury.itch.io/sequence-drift">Play Sequence Drift on itch.io</a>
+    width="100%" 
+    height="100%">
   </iframe>
 </div>
 
