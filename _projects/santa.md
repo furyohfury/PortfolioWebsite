@@ -3,7 +3,7 @@ layout: game-page
 title: "Don't upset the Santa"
 description: "Казуальная игра про сортировку с возможностью удаленного редактирования конфигов"
 image: "/assets/images/santa-preview.png"  # Превью для карточки
-priority: -1
+priority: -5
 ---
 
 ## Геймплейное видео:
