@@ -48,7 +48,7 @@ priority: -2
 
 ## Ссылки  
 - [Itch.io](https://furyohfury.itch.io/sequence-drift)
-- [Ludum Dare] (https://ldjam.com/events/ludum-dare/59/sequence-drift)
+- [Ludum Dare](https://ldjam.com/events/ludum-dare/59/sequence-drift)
 
 ## Технологии
 - DOTween
