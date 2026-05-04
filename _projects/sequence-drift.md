@@ -16,7 +16,7 @@ priority: -2
 
 ## Скриншоты
 <div class="gallery">
-  {% for screenshot in site.iron-frontier-screenshots %}
+  {% for screenshot in site.sequence-drift-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
        data-lightbox="gallery" 
        data-title="Скриншот"
