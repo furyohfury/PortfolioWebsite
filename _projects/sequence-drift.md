@@ -7,10 +7,9 @@ priority: -2
 ---
 
 ## Играть в браузере:
-<div class="video-grid">
+<div class="unity-container">
   <iframe 
     src="{{ '/builds/sequence-drift/index.html' | relative_url }}" 
-    style="width: 100%; aspect-ratio: 16 / 9; border: none;"
     allowfullscreen>
   </iframe>
 </div>
