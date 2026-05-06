@@ -38,3 +38,6 @@ collections:
   santa-screenshots:
     output: false
     permalink: /santa-screenshots/:name/
+  sequence-drift-screenshots:
+    output: false
+    permalink: /sequence-drift-screenshots/:name/
