@@ -1,4 +1,4 @@
 ---
-image: /assets/images/screenshots/cat-cloud/1.png
+image: /assets/images/screenshots/cat-cloud/2.png
 title: "Скриншот игры Тучка"
 ---
