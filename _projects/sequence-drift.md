@@ -79,6 +79,7 @@ function loadUnityGame() {
 ## Ссылки  
 - [Itch.io](https://furyohfury.itch.io/sequence-drift)
 - [Ludum Dare](https://ldjam.com/events/ludum-dare/59/sequence-drift)
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Github](https://github.com/furyohfury/LDJam59)
 
 ## Технологии
 - DOTween
@@ -87,3 +88,4 @@ function loadUnityGame() {
 ## Достигнутые в ходе работы цели
 - Создание небольшой игры для гейм джема за 3 дня
 - Работа в качестве разработчика в паре с художником
+- Реализация управления для компьютеров и мобильных устройств в веб версии билда

@@ -41,3 +41,6 @@ collections:
   sequence-drift-screenshots:
     output: false
     permalink: /sequence-drift-screenshots/:name/
+  cat-cloud-screenshots:
+    output: false
+    permalink: /cat-cloud-screenshots/:name/
