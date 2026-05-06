@@ -2,18 +2,40 @@
 ---
 
 @import "{{ site.theme }}";
+/* Уменьшаем высоту баннера */
+.page-header {
+  padding: 2rem 1rem !important; /* Было около 5rem сверху и снизу */
+  text-align: center;            /* Центрируем содержимое */
+  background-image: none;        /* Убираем градиент, если он мешает */
+  background-color: #157878;     /* Оставляем приятный основной цвет */
+  min-height: auto !important;   /* Убираем ограничение по минимальной высоте */
+}
+
+/* Убираем лишние отступы у заголовка */
+.project-name {
+  margin-top: 0 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+/* Уменьшаем отступ описания */
+.project-tagline {
+  margin-bottom: 1rem !important;
+}
+
 /* На всякий случай добавим ограничение для картинок внутри карточек */
 .project-image {
   max-width: 100%;
   height: auto;
   display: block;
 }
+
 .icon {
   width: 25px;
   height: 25px;
   vertical-align: middle;
   margin-right: 5px;
 }
+
 .game-grid {
   display: grid;
   /* 'auto-fill' сам решит, сколько колонок влезет исходя из min ширины (например, 200px) */
@@ -22,6 +44,7 @@
   margin: 20px 0;
   width: 100%; /* Чтобы сетка не выходила за границы колонки */
 }
+
 .video-grid {
   display: grid;
   /* Используем 1fr, чтобы колонки делили доступное пространство поровну */
