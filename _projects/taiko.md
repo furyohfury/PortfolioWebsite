@@ -4,6 +4,7 @@ title: "Taiko"
 description: "Ритм-игра taiko"
 image: "/assets/images/taiko-preview.png"  # Превью для карточки
 priority: 3
+lang: ru
 ---
 
 ## Геймплейное видео:

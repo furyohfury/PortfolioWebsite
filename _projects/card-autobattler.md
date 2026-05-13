@@ -4,6 +4,7 @@ title: "Card auto-battler"
 description: "Карточный автобатлер"
 image: "/assets/images/card-autobattler-preview.png"  # Превью для карточки
 priority: 6
+lang: ru
 ---
 
 ## Геймплейное видео:

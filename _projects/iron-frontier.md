@@ -4,6 +4,7 @@ title: "Iron frontier"
 description: "Участие в разработке карточной стратегии-рогалика в составе инди-студии Bibamus"
 image: "/assets/images/iron-frontier-preview.jpg"  # Превью для карточки
 priority: -4
+lang: ru
 ---
 
 ## Геймплейное видео:

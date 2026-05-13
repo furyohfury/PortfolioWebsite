@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Мое Unity портфолио
+lang: ru
 ---
 
 ## Артем Кузьминых
@@ -36,7 +37,7 @@ title: Мое Unity портфолио
     <div class="info-block">
   <h3>Мои проекты</h3>
   <div class="game-grid">
-    {% assign sorted_projects = site.projects | sort: "priority" %}
+    {% assign sorted_projects = site.projects | where: "lang", "ru" | sort: "priority" %}
     {% for project in sorted_projects %}
       <div class="game-card">
         <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>

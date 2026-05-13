@@ -4,6 +4,7 @@ title: "Don't upset the Santa"
 description: "Казуальная игра про сортировку с возможностью удаленного редактирования конфигов"
 image: "/assets/images/santa-preview.png"  # Превью для карточки
 priority: -5
+lang: ru
 ---
 
 ## Геймплейное видео:

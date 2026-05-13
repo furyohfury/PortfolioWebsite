@@ -1,10 +1,10 @@
 ---
 layout: game-page
 title: "Тучка"
-description: "Разработка игры в ходе Siberian game jam 2026 в команде"
+description: "Game development bla bla bla в ходе Siberian game jam 2026 в команде"
 image: "/assets/images/cat-cloud-preview.png"  # Превью для карточки
 priority: -3
-lang: ru
+lang: en
 ---
 
 ## Играть в браузере:
