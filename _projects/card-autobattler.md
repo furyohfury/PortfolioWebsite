@@ -7,7 +7,8 @@ priority: 6
 lang: ru
 ---
 
-## Геймплейное видео:
+{% assign t = site.data.t[page.lang] %}
+## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
   width="853" 
@@ -19,7 +20,7 @@ lang: ru
 <iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239020&hd=2&hash=dbdb1be04ce6dbaa&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 </div>
 
-## Скриншоты
+## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.card-autobattler-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
@@ -51,13 +52,16 @@ lang: ru
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Otus_Homework/tree/Eighth_EventBus)
 
-## Технологии  
+## {{ t.game_technologies }}
 - DOTween
 - Zenject
 
-## Достигнутые в ходе работы цели
-- Построение игровой логики на основе паттерна Event bus (шина событий)
-- Разделение логики и визуала с помощью отдельных пайплайнов
+## {{ t.game_achieved_goals }}
+<ul>
+        {% for skill in t.card_autobattler_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
