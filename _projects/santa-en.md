@@ -7,6 +7,7 @@ priority: -5
 lang: en
 ---
 {% assign t = site.data.t[page.lang] %}
+<!--
 ## {{ t.play_in_browser }} (no yandex games SDK)
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
@@ -44,6 +45,7 @@ function loadUnityGame() {
   cover.style.display = 'none';
 }
 </script>
+-->
 
 ## {{ t.gameplay_video }}
 <div class="video-grid">

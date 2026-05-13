@@ -7,6 +7,7 @@ priority: -5
 lang: ru
 ---
 {% assign t = site.data.t[page.lang] %}
+<!--
 ## {{ t.play_in_browser }} (без СДК яндекс игр)
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
@@ -44,6 +45,7 @@ function loadUnityGame() {
   cover.style.display = 'none';
 }
 </script>
+-->
 
 ## {{ t.gameplay_video }}
 <div class="video-grid">
