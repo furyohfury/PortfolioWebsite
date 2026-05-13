@@ -45,8 +45,13 @@ en:
   game_technologies: "Used technologies"
   game_achieved_goals: "Achieved goals"
   card_autobattler_goals:
-    - Построение игровой логики на основе паттерна Event bus (шина событий)
-    - Разделение логики и визуала с помощью отдельных пайплайнов
+    - Building game logic based on the Event Bus pattern
+    - Separating logic and visuals using separate pipelines
+  play_in_browser: "Play in browser"
+  cat_cloud_goals:
+    - Created a small game for a game jam in 3 days as the team's lead developer.
+    - Created numerous animations using code to create a pleasing visual experience.
+    - Implemented controls for computers and mobile devices in the web version of the build.
 
 ru:
   back_to_main: "На главную"
@@ -96,4 +101,9 @@ ru:
   game_achieved_goals: "Достигнутые цели"
   card_autobattler_goals:
     - Построение игровой логики на основе паттерна Event bus (шина событий)
-    - Разделение логики и визуала с помощью отдельных пайплайнов
+    - Разделение логики и визуала c помощью отдельных пайплайнов
+  play_in_browser: "Играть в браузере"
+  cat_cloud_goals:
+    - Создание небольшой игры для гейм джема за 3 дня в качестве главного разработчика команды
+    - Написание множества анимаций c помощью кода для приятного визуала игры
+    - Реализация управления для компьютеров и мобильных устройств в веб версии билда

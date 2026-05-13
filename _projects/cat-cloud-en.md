@@ -1,13 +1,13 @@
 ---
 layout: game-page
 title: "Тучка"
-description: "Game development bla bla bla в ходе Siberian game jam 2026 в команде"
+description: "Game developer during Siberian game jam 2026 as part of a team"
 image: "/assets/images/cat-cloud-preview.png"  # Превью для карточки
 priority: -3
 lang: en
 ---
-
-## Играть в браузере:
+{% assign t = site.data.t[page.lang] %}
+## {{ t.play_in_browser }}
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
     position: absolute; 
@@ -45,7 +45,7 @@ function loadUnityGame() {
 }
 </script>
 
-## Скриншоты
+## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.cat-cloud-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
@@ -56,7 +56,7 @@ function loadUnityGame() {
        <img src="{{ screenshot.image | relative_url }}" alt="Скриншот" class="project-image">
        
        {% if forloop.first %}
-         <p style="text-align: center; cursor: pointer;">📸 Нажмите, чтобы посмотреть все скриншоты</p>
+         <p style="text-align: center; cursor: pointer;">📸 Press to look at all screenshots</p>
        {% endif %}
     </a>
   {% endfor %}
@@ -77,16 +77,18 @@ function loadUnityGame() {
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - [Itch.io](https://furyohfury.itch.io/cat-cloud)
 - [SibGJ](https://platform.sibgamejam.com/games/alinaapril17/cat-cloud)
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Github](https://github.com/D0GMAR/SibGJ2026)
 
-## Технологии
+## {{ t.game_technologies }}
 - DOTween
 - UniTask
 
-## Достигнутые в ходе работы цели
-- Создание небольшой игры для гейм джема за 3 дня в качестве главного разработчика команды
-- Написание множества анимаций с помощью кода для приятного визуала игры
-- Реализация управления для компьютеров и мобильных устройств в веб версии билда
+## {{ t.cat_cloud_goals }}
+<ul>
+        {% for skill in t.card_autobattler_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
