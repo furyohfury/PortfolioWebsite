@@ -6,8 +6,8 @@ image: "/assets/images/sequence-drift-preview.jpg"  # Превью для кар
 priority: -2
 lang: ru
 ---
-
-## Играть в браузере:
+{% assign t = site.data.t[page.lang] %}
+## {{ t.play_in_browser }}
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
     position: absolute; 
@@ -45,7 +45,7 @@ function loadUnityGame() {
 }
 </script>
 
-## Скриншоты
+## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.sequence-drift-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
@@ -77,16 +77,18 @@ function loadUnityGame() {
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - [Itch.io](https://furyohfury.itch.io/sequence-drift)
 - [Ludum Dare](https://ldjam.com/events/ludum-dare/59/sequence-drift)
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[Github](https://github.com/furyohfury/LDJam59)
 
-## Технологии
+## {{ t.game_technologies }}
 - DOTween
 - Awaitable
 
-## Достигнутые в ходе работы цели
-- Создание небольшой игры для гейм джема за 3 дня
-- Работа в качестве разработчика в паре с художником
-- Реализация управления для компьютеров и мобильных устройств в веб версии билда
+## {{ t.game_achieved_goals }}
+<ul>
+        {% for skill in t.sequence_drift_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

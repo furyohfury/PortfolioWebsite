@@ -1,26 +1,33 @@
 ---
 layout: game-page
-title: "Money run"
-description: "Казуальный 3D раннер"
-image: "/assets/images/money-run-preview.png"  # Превью для карточки
-priority: 5
+title: "Totally not pikmin"
+description: "3D game with controlling a group of minions."
+image: "/assets/images/pikmin-preview.png"  # Превью для карточки
+priority: 2
+lang: en
 ---
-
+{% assign t = site.data.t[page.lang] %}
 ## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/hYA5fsOqavc"
+  src="https://www.youtube.com/embed/Ymxn-hAhA-U" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239021&hd=2&hash=baa042c8113ad7f7&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe 
+src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239019&hd=2&hash=91cd2a2812a6dac4" 
+width="853" height="480" 
+allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
 </div>
 
 ## {{ t.screenshots }}
 <div class="gallery">
-  {% for screenshot in site.money-run-screenshots %}
+  {% for screenshot in site.pikmin-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
        data-lightbox="gallery" 
        data-title="Скриншот"
@@ -51,14 +58,19 @@ priority: 5
 </script>
 
 ## {{ t.game_links }}
-- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Tests/tree/RichRun)
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/FreeRealEstate/tree/Pikmin)
+- ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows](https://furyohfury.itch.io/totally-not-pikmin)
 
 ## {{ t.game_technologies }}  
-- Zenject
+- Unity Behaviour
+- R3
+- UniTask
 - DOTween
-- Cinemachine
+- Zenject
 
 ## {{ t.game_achieved_goals }}
-- Управление персонажем с помощью Touch в Input System
-- Реализация анимации перемещения с использованием Blend Tree
-- Переключение состояния аниматора при смене модели игрока
+<ul>
+        {% for skill in t.pikmin_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

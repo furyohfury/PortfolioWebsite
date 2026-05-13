@@ -1,26 +1,27 @@
 ---
 layout: game-page
-title: "Money run"
-description: "Казуальный 3D раннер"
-image: "/assets/images/money-run-preview.png"  # Превью для карточки
-priority: 5
+title: "Taiko"
+description: "Rhytm taiko game"
+image: "/assets/images/taiko-preview.png"  # Превью для карточки
+priority: 3
+lang: en
 ---
-
+{% assign t = site.data.t[page.lang] %}
 ## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/hYA5fsOqavc"
+  src="https://www.youtube.com/embed/Rv4SX6Viylc" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239021&hd=2&hash=baa042c8113ad7f7&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239022&hd=2&hash=c26e640104b6f2cc&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 </div>
 
 ## {{ t.screenshots }}
 <div class="gallery">
-  {% for screenshot in site.money-run-screenshots %}
+  {% for screenshot in site.taiko-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
        data-lightbox="gallery" 
        data-title="Скриншот"
@@ -51,14 +52,20 @@ priority: 5
 </script>
 
 ## {{ t.game_links }}
-- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Tests/tree/RichRun)
+- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/FreeRealEstate/tree/Taiko)
+- [GoogleDrive .apk](https://drive.google.com/file/d/1CwqQrRcmiv9DTQFTY_kUM9-Rbo4HtuHo/view?usp=sharing)
 
-## {{ t.game_technologies }}  
-- Zenject
+## {{ t.game_technologies }}
+- Firebase
+- Addressables
+- VContainer
 - DOTween
-- Cinemachine
+- R3 (UniRx)
+- UniTask
 
 ## {{ t.game_achieved_goals }}
-- Управление персонажем с помощью Touch в Input System
-- Реализация анимации перемещения с использованием Blend Tree
-- Переключение состояния аниматора при смене модели игрока
+<ul>
+        {% for skill in t.taiko_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

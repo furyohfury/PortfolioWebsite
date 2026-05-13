@@ -6,8 +6,8 @@ image: "/assets/images/pikmin-preview.png"  # Превью для карточк
 priority: 2
 lang: ru
 ---
-
-## Геймплейное видео:
+{% assign t = site.data.t[page.lang] %}
+## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
   width="853" 
@@ -25,7 +25,7 @@ allowfullscreen>
 </iframe>
 </div>
 
-## Скриншоты
+## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.pikmin-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
@@ -57,22 +57,20 @@ allowfullscreen>
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/FreeRealEstate/tree/Pikmin)
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows](https://furyohfury.itch.io/totally-not-pikmin)
 
-## Технологии  
+## {{ t.game_technologies }}  
 - Unity Behaviour
 - R3
 - UniTask
 - DOTween
 - Zenject
 
-## Достигнутые в ходе работы цели
-- Изучение  работы с официальным AI фреймворком от Unity
-- Использование компонентного подхода monobehaviour'ов с помощью класса-фасада с интерфейсами
-- Создание модульной VFX системы
-- Создание модульной Audio системы
-- Создание катсцен с помощью Cinemachine и Timeline
-- Создание декалей с помощью URP
-- Создание renderer feature с помощью URP
+## {{ t.game_achieved_goals }}
+<ul>
+        {% for skill in t.pikmin_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

@@ -52,6 +52,49 @@ en:
     - Created a small game for a game jam in 3 days as the team's lead developer.
     - Created numerous animations using code to create a pleasing visual experience.
     - Implemented controls for computers and mobile devices in the web version of the build.
+  iron_frontier_goals:
+    - Performed tasks as part of an indie game studio
+    - Worked on all project layers
+    - Redesigned singleton systems for an extensible architecture
+    - Improved the game interface
+    - Implemented new core gameplay features
+    - Developed meta-systems for upgrades and unlocks
+    - Developed a saveload system
+  neon_what_goals:
+    - Building game logic based on the atomic approach (in short, this is an approach similar to ECS, but the systems are contained within the entity, maintaining the separation of data and logic)
+    - Building an interface separate from the game logic, based on MVX patterns
+    - Building a fully controllable game loop (used, for example, for pausing)
+    - Creating a modular data saving system
+    - Implementing controls using an input system. Adding touch controls for phones
+    - Implementing a 2D lighting system using generated normal maps
+  pikmin_goals:
+    - Learning the principles of working with Unity's official AI framework
+    - Using a component-based monobehavior approach with a facade class and interfaces
+    - Creating a modular VFX system
+    - Creating a modular Audio system
+    - Creating cutscenes with Cinemachine and Timeline
+    - Creating decals with URP
+    - Creating a renderer feature with URP
+  santa_goals:
+    - Ability to remotely change project settings—difficulty, scene parameters, etc.—by uploading a JSON file (to Yandex Cloud) at game start (bootstrap scene), as well as through the YG flag system.
+    - Integration of the Yandex Games SDK into the project.
+    - Implementation of leaderboards, rewarded ad display, and analytics (Metrica) via the Yandex Games SDK.
+    - Application of the Strategy pattern for the implementation of the above systems, so other implementations can be substituted for different platforms (an Android build with an SDK like AdMob or others is planned).
+    - Use of post-processing effects for visual day/night cycles.
+    - Project architecture was not a priority; it needs to be addressed by other portfolio projects.
+  sequence_drift_goals:
+    - Creating a small game for a game jam in 3 days
+    - Working as a developer in tandem with an artist
+    - Implementing controls for computers and mobile devices in the web version of the build
+  taiko_goals:
+    - Integration of Google's Firebase service for authentication and leaderboards. Creation of a separate module for working with Firebase and adapters for game logic interaction with it.
+    - Building most of the logic using reactive programming principles with the R3 framework.
+    - Using Addressables to work with game assets. Creating an object provider module with the ability to replace the implementation.
+    - Implementation of controls for Windows and Android platforms.
+    - Independence of game logic from its visual display.
+    - Project is expandable to a game with a full list of beatmaps, but i've been too lazy to create a menu for it and parse more beatmaps. 😛
+  zero_resistance_goals:
+    - Building a small game during a three-day game jam
 
 ru:
   back_to_main: "На главную"
@@ -107,3 +150,46 @@ ru:
     - Создание небольшой игры для гейм джема за 3 дня в качестве главного разработчика команды
     - Написание множества анимаций c помощью кода для приятного визуала игры
     - Реализация управления для компьютеров и мобильных устройств в веб версии билда
+  iron_frontier_goals:
+    - Выполнение задач в составе игровой инди-студии
+    - Работа над всеми слоями проекта
+    - Переработал системы на синглтонах под расширяемую архитектуру
+    - Доработал интерфейс игры
+    - Внедрял новые фичи кор-геймплея
+    - Разработал мета-системы апгрейдов и анлоков
+    - Разработал сейвлоад систему
+  neon_what_goals:
+    - Построение игровой логики на основе атомарного подхода (если вкратце то, это подход наподобие ECS, но системы находятся внутри сущности, сохраняя разделение данных и логики)
+    - Построение интерфейса, отделенного от игровой логики, на основе паттернов MVX
+    - Построение полностью контролируемого игрового цикла (используется, например, для постановки паузы)
+    - Создание модульной системы сохранения данных
+    - Реализация усправления с помощью input system. Добавление сенсорного управления для телефонов
+    - Реализация системы 2D освещения с использованием сгенерированных карт нормалей
+  pikmin_goals:
+    - Изучение принципов работы с официальным AI фреймворком от Unity
+    - Использование компонентного подхода monobehaviour'ов с помощью класса-фасада с интерфейсами
+    - Создание модульной VFX системы
+    - Создание модульной Audio системы
+    - Создание катсцен с помощью Cinemachine и Timeline
+    - Создание декалей с помощью URP
+    - Создание renderer feature с помощью URP
+  santa_goals:
+    - Возможность удаленно менять настройки проекта - сложность, параметры сцены и др. через загрузку JSON файла (на Yandex Cloud) на старте игры (bootstrap сцена), а также через систему флагов в YG
+    - Внедрение SDK Яндекс игр в проект
+    - Реализация лидербордов, показа rewarded рекламы, аналитики(Метрика) через SDK яндекс игр
+    - Применение паттерна стратегия для реализации указанных выше систем, так что возможна подстановка других реализаций под разные платформы (планируется билд под android с SDK вроде admob или др.)
+    - Использование эффектов пост-процессинга для визуальной смены дня и ночи
+    - Архитектура проекта не была приоритетом, за ней нужно смотреть другие проекты портфолио
+  sequence_drift_goals:
+    - Создание небольшой игры для гейм джема за 3 дня
+    - Работа в качестве разработчика в паре с художником
+    - Реализация управления для компьютеров и мобильных устройств в веб версии билда
+  taiko_goals:
+    - Интеграция сервиса Firebase от Google для аутентификации и таблиц лидеров. Создание отдельного модуля для работы с Firebase и адаптеров для взаимодействия с ним логики игры.
+    - Построение большей части логики с помощью принципов реактивного программирования с использованием фреймворка R3.
+    - Использование Addressables для работы с ассетами игры. Создание модуля провайдера объектов с возможностью подмены реализации.
+    - Реализация управления для платформ Windows и Android.
+    - Независимость логики игры от ее визуального отображения.
+    - Вообще проект расширяем до игры с полноценным списком карт, но делать для этого меню и парсить больше карт уже было лень 😛
+  zero_resistance_goals:
+    - Построение небольшой игры в ходе трехдневного геймджема

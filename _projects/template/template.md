@@ -6,7 +6,7 @@ description: "DESC"
 image: "/assets/images/IMAGE.png"  # Превью для карточки
 ---
 
-## Скриншоты
+## {{ t.screenshots }}
  <div class="gallery">
     {% for screenshot in site.neon-what-screenshots %}
   <a href="{{ screenshot.image | relative_url }}" data-lightbox="gallery" data-title="Скриншот">
@@ -30,11 +30,11 @@ image: "/assets/images/IMAGE.png"  # Превью для карточки
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](GITHUB_LINK)
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, Android](GITHUB_LINK)
 
-## Технологии  
+## {{ t.game_technologies }}  
 
 
-## Достигнутые в ходе работы цели -->
+## {{ t.game_achieved_goals }} -->

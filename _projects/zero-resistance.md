@@ -1,13 +1,13 @@
 ---
 layout: game-page
 title: "Zero resistance"
-description: "2D сайдскроллер в космосе. Разработана в ходе геймджема"
+description: "2D сайдскроллер в космосе. Разработана в одиночку в ходе геймджема"
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
 priority: 4
 lang: ru
 ---
-
-## Геймплейное видео:  
+{% assign t = site.data.t[page.lang] %}
+## {{ t.gameplay_video }}  
 <div class="video-grid">
 <iframe 
   width="853" 
@@ -25,7 +25,7 @@ allowfullscreen>
 </iframe>
 </div>
 
-## Скриншоты
+## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.zero-resistance-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
@@ -57,12 +57,16 @@ allowfullscreen>
     })
 </script>
 
-## Ссылки  
+## {{ t.game_links }}
 - ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, WebGl](https://furyohfury.itch.io/zeroresistanceweb3)
 
-## Технологии  
+## {{ t.game_technologies }}  
 - Zenject
 - DOTween
 
-## Достигнутые в ходе работы цели
-- Построение небольшой игры в ходе трехдневного геймджема
+## {{ t.game_achieved_goals }}
+<ul>
+        {% for skill in t.zero_resistance_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

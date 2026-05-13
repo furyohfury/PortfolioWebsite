@@ -1,26 +1,33 @@
 ---
 layout: game-page
-title: "Money run"
-description: "Казуальный 3D раннер"
-image: "/assets/images/money-run-preview.png"  # Превью для карточки
-priority: 5
+title: "Iron frontier"
+description: "Participation in development of card strategy-roguelike as part of indie game studio Bibamus"
+image: "/assets/images/iron-frontier-preview.jpg"  # Превью для карточки
+priority: -4
+lang: en
 ---
-
+{% assign t = site.data.t[page.lang] %}
 ## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/hYA5fsOqavc"
+  src="https://www.youtube.com/embed/C0BmLHdaJBw" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239021&hd=2&hash=baa042c8113ad7f7&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe 
+src="https://vk.com/video_ext.php?oid=-227503186&id=456239030&autoplay=0" 
+width="853" height="480" 
+allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
 </div>
 
 ## {{ t.screenshots }}
 <div class="gallery">
-  {% for screenshot in site.money-run-screenshots %}
+  {% for screenshot in site.iron-frontier-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
        data-lightbox="gallery" 
        data-title="Скриншот"
@@ -51,14 +58,16 @@ priority: 5
 </script>
 
 ## {{ t.game_links }}
-- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Tests/tree/RichRun)
+- [Steam](https://store.steampowered.com/app/2131290/Iron_Frontier/)
 
-## {{ t.game_technologies }}  
+## {{ t.game_technologies }}
 - Zenject
+- Awaitable
 - DOTween
-- Cinemachine
 
 ## {{ t.game_achieved_goals }}
-- Управление персонажем с помощью Touch в Input System
-- Реализация анимации перемещения с использованием Blend Tree
-- Переключение состояния аниматора при смене модели игрока
+<ul>
+        {% for skill in t.iron_frontier_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>

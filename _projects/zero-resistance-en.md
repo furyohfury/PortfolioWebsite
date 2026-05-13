@@ -1,26 +1,33 @@
 ---
 layout: game-page
-title: "Money run"
-description: "Казуальный 3D раннер"
-image: "/assets/images/money-run-preview.png"  # Превью для карточки
-priority: 5
+title: "Zero resistance"
+description: "A 2D side-scroller set in space. Developed solo during a game jam."
+image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
+priority: 4
+lang: en
 ---
-
-## {{ t.gameplay_video }}
+{% assign t = site.data.t[page.lang] %}
+## {{ t.gameplay_video }}  
 <div class="video-grid">
 <iframe 
   width="853" 
   height="480" 
-  src="https://www.youtube.com/embed/hYA5fsOqavc"
+  src="https://www.youtube.com/embed/3abxonV4zNg" 
   frameborder="0" 
   allowfullscreen>
 </iframe>
-<iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239021&hd=2&hash=baa042c8113ad7f7&autoplay=1" width="853" height="480" style="background-color: #000" allow="encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
+<iframe 
+src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239018&hd=2&hash=5e5939ef087a8e31" 
+width="853" height="480" 
+allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" 
+frameborder="0" 
+allowfullscreen>
+</iframe>
 </div>
 
 ## {{ t.screenshots }}
 <div class="gallery">
-  {% for screenshot in site.money-run-screenshots %}
+  {% for screenshot in site.zero-resistance-screenshots %}
     <a href="{{ screenshot.image | relative_url }}" 
        data-lightbox="gallery" 
        data-title="Скриншот"
@@ -51,14 +58,15 @@ priority: 5
 </script>
 
 ## {{ t.game_links }}
-- ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/Tests/tree/RichRun)
+- ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon}[Windows, WebGl](https://furyohfury.itch.io/zeroresistanceweb3)
 
 ## {{ t.game_technologies }}  
 - Zenject
 - DOTween
-- Cinemachine
 
 ## {{ t.game_achieved_goals }}
-- Управление персонажем с помощью Touch в Input System
-- Реализация анимации перемещения с использованием Blend Tree
-- Переключение состояния аниматора при смене модели игрока
+<ul>
+        {% for skill in t.zero_resistance_goals %}
+          <li>{{ skill }}</li>
+        {% endfor %}
+      </ul>
