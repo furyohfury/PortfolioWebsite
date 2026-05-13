@@ -140,3 +140,43 @@
   background-color: #1a9393;
   transform: scale(1.1);
 }
+
+/* Контейнер переключателя */
+.lang-switch {
+  float: right;      /* Прижимаем к правому краю */
+  display: flex;
+  gap: 10px;         /* Расстояние между кнопками */
+  margin-top: 5px;   /* Центрируем относительно высоты шрифта заголовка */
+}
+
+/* Стили самих кнопок */
+.lang-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 10px;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  text-decoration: none !important;
+  font-size: 0.9rem;
+  color: #157878 !important; /* Цвет как у кнопок Cayman */
+  background-color: #fff;
+  transition: all 0.2s;
+}
+
+.lang-btn:hover {
+  background-color: #f6f8fa;
+  border-color: #157878;
+}
+
+/* Стиль для активного языка */
+.lang-btn.active {
+  background-color: #157878;
+  color: #fff !important;
+  border-color: #157878;
+  pointer-events: none; /* Выключаем клик по активному языку */
+}
+
+.flag {
+  font-size: 1.2rem; /* Флаги чуть крупнее текста */
+}
