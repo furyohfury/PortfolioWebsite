@@ -87,9 +87,9 @@ function loadUnityGame() {
 - DOTween
 - UniTask
 
-## {{ t.cat_cloud_goals }}
+## {{ t.game_achieved_goals }}
 <ul>
-        {% for skill in t.card_autobattler_goals %}
+        {% for skill in t.cat_cloud_goals %}
           <li>{{ skill }}</li>
         {% endfor %}
       </ul>

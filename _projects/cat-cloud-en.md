@@ -1,7 +1,7 @@
 ---
 layout: game-page
-title: "Тучка"
-description: "Game developer during Siberian game jam 2026 as part of a team"
+title: "Cat-cloud"
+description: "Game developed during Siberian game jam 2026 as part of a team"
 image: "/assets/images/cat-cloud-preview.png"  # Превью для карточки
 priority: -3
 lang: en
@@ -86,9 +86,9 @@ function loadUnityGame() {
 - DOTween
 - UniTask
 
-## {{ t.cat_cloud_goals }}
+## {{ t.game_achieved_goals }}
 <ul>
-        {% for skill in t.card_autobattler_goals %}
+        {% for skill in t.cat_cloud_goals %}
           <li>{{ skill }}</li>
         {% endfor %}
       </ul>
