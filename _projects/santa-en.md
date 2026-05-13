@@ -7,6 +7,44 @@ priority: -5
 lang: en
 ---
 {% assign t = site.data.t[page.lang] %}
+## {{ t.play_in_browser }} (no yandex games SDK)
+<div class="unity-container" id="unity-loader-container">
+  <div id="game-cover" style="
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background: url('{{ "/assets/images/santa-preview.png" | relative_url }}') no-repeat center; 
+    background-size: cover; 
+    z-index: 2; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    border-radius: 10px;">
+    
+    <button class="btn" onclick="loadUnityGame()" style="padding: 20px 40px; font-size: 1.5rem; cursor: pointer;">
+      Run Game 🎮
+    </button>
+  </div>
+
+  <div id="iframe-placeholder" style="width: 100%; height: 100%;"></div>
+</div>
+
+<script>
+function loadUnityGame() {
+  const container = document.getElementById('iframe-placeholder');
+  const cover = document.getElementById('game-cover');
+  
+  // URL вашего билда
+  const gameUrl = "{{ '/builds/santa/index.html' | relative_url }}";
+  
+  // Создаем iframe динамически
+  container.innerHTML = `<iframe src="${gameUrl}" allowfullscreen style="width:100%; height:100%; border:none;"></iframe>`;
+  
+  // Скрываем обложку
+  cover.style.display = 'none';
+}
+</script>
+
 ## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
