@@ -1,10 +1,83 @@
-ru:
-  projects_title: "Мои проекты"
-  skills_title: "Навыки"
-  contacts_title: "Контакты"
-  back_to_main: "На главную"
 en:
-  projects_title: "My Projects"
-  skills_title: "Skills"
-  contacts_title: "Contacts"
   back_to_main: "Back to Home"
+  contacts: "Contacts"
+  email_label: "Email"
+  telegram_label: "Telegram"
+  github_link: "My GitHub"
+  itch_link: "My itch.io"
+  hh_link: "Resume on hh"
+  
+  skills_title: "Skills"
+  skills_list:
+    - "Unity: 2D/3D Development, Tilemap, URP, UI, Addressables, Cinemachine, Animator"
+    - "Programming (C#): Asynchronous code, Reactive programming, Test Driven Development"
+    - "Architecture & Patterns: OOP, SOLID, GRASP, KISS, DRY, YAGNI, GoF patterns, MVX, ECS, Atomic"
+    - "Frameworks: Zenject, VContainer, DoTween, UniTask, R3 (UniRx), Entitas ECS"
+    - "Third-party SDKs: Firebase, Yandex Games, Playfab"
+    - "Game AI: FSM, Behavior Tree, NavMesh"
+    - "Tools: Git/GitHub, Rider, Profiling and Optimization"
+
+  projects_title: "My Projects"
+  
+  experience_title: "Work Experience"
+  job_role: "Unity Developer"
+  job_date: "September 2025 — Present"
+  job_description:
+    - "Worked on all project layers"
+    - "Refactored Singleton-based systems into a scalable architecture"
+    - "Improved the game UI"
+    - "Implemented new core gameplay features"
+    - "Developed meta-systems for upgrades and unlocks"
+    - "Developed a save/load system"
+    - "And more"
+
+  courses_title: "Courses"
+  certificate: "Certificate"
+  otus_desc: "Unity Game Developer - Professional. Developed prototypes and studied project architecture principles."
+  netology_desc: "Unity Game Developer course. Studied Unity engine basics and C# fundamentals."
+
+  education_title: "Education"
+  university: "Bauman Moscow State Technical University"
+  specialty: "Design of Technical and Technological Complexes"
+
+ru:
+  back_to_main: "На главную"
+  contacts: "Контакты"
+  email_label: "Почта"
+  telegram_label: "Телеграм"
+  github_link: "Мой GitHub"
+  itch_link: "Мой itch.io"
+  hh_link: "Резюме на hh"
+  
+  skills_title: "Навыки"
+  skills_list:
+    - "Unity: 2d/3d Разработка, Tilemap, URP, UI, Addressables, Cinemachine, Animator"
+    - "Программирование (C#): Асинхронный код, Реактивное программирование, Test Driven Development"
+    - "Основы архитектуры кода и паттерны: ООП, SOLID, GRASP, KISS, DRY, YAGNI, GOF паттерны, MVX, ECS, Atomic"
+    - "Популярные фреймворки: ZENJECT, VCONTAINER, DOTWEEN, UNITASK, R3 (UNIRX), ENTITAS ECS"
+    - "Сторонние SDK: FIREBASE, Yandex игры, Playfab"
+    - "Игровой AI: FSM, BEHAVIOR TREE, NAVMESH"
+    - "Инструменты: GIT/GITHUB, Rider, профилирование и оптимизация"
+
+  projects_title: "Мои проекты"
+
+  experience_title: "Опыт работы"
+  job_role: "Unity-разработчик"
+  job_date: "Сентябрь 2025 — настоящее время"
+  job_description:
+    - "Работа над всеми слоями проекта"
+    - "Переработал системы на синглтонах под расширяемую архитектуру"
+    - "Доработал интерфейс игры"
+    - "Внедрял новые фичи кор-геймплея"
+    - "Разработал мета-системы апгрейдов и анлоков"
+    - "Разработал сейвлоад систему"
+    - "И пр."
+
+  courses_title: "Курсы"
+  certificate: "Сертификат"
+  otus_desc: "Обучение на курсе Unity Game Developer. Professional. Разработка прототипов и изучение принципов архитектуры."
+  netology_desc: "Обучение на курсе Разработчик игр на Unity. Основы движка и языка C#."
+
+  education_title: "Образование"
+  university: "МГТУ имени Н.Э. Баумана"
+  specialty: "Проектирование технических и технологических комплексов"
