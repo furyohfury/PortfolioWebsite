@@ -7,14 +7,14 @@ priority: -5
 lang: en
 ---
 {% assign t = site.data.t[page.lang] %}
-<!--
-## {{ t.play_in_browser }} (без СДК яндекс игр)
+
+## {{ t.play_in_browser }}
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
     position: absolute; 
     width: 100%; 
     height: 100%; 
-    background: url('{{ "/assets/images/santa-preview.png" | relative_url }}') no-repeat center; 
+    background: url('{{ "/assets/images/crossbow-pvp-preview.png" | relative_url }}') no-repeat center; 
     background-size: cover; 
     z-index: 2; 
     display: flex; 
@@ -36,7 +36,7 @@ function loadUnityGame() {
   const cover = document.getElementById('game-cover');
   
   // URL вашего билда
-  const gameUrl = "{{ '/builds/santa/index.html' | relative_url }}";
+  const gameUrl = "{{ '/builds/crossbow-pvp/index.html' | relative_url }}";
   
   // Создаем iframe динамически
   container.innerHTML = `<iframe src="${gameUrl}" allowfullscreen style="width:100%; height:100%; border:none;"></iframe>`;
@@ -45,8 +45,8 @@ function loadUnityGame() {
   cover.style.display = 'none';
 }
 </script>
--->
 
+<!--
 ## {{ t.gameplay_video }}
 <div class="video-grid">
 <iframe 
@@ -58,7 +58,7 @@ function loadUnityGame() {
 </iframe>
 <iframe src="https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023&hash=eb36a0dfb8f81cc6&hd=4" width="853" height="480" allow="autoplay; encrypted-media; fullscreen; picture-in-picture; screen-wake-lock;" frameborder="0" allowfullscreen></iframe>
 </div>
-
+-->
 ## {{ t.screenshots }}
 <div class="gallery">
   {% for screenshot in site.crossbow-pvp-screenshots %}
