@@ -8,7 +8,7 @@ lang: ru
 ---
 {% assign t = site.data.t[page.lang] %}
 
-## {{ t.play_in_browser }}
+## {{ t.play_in_browser }} (нужно запускать в разных браузерах)
 
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="

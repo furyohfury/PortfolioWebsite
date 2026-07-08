@@ -8,7 +8,7 @@ lang: en
 ---
 {% assign t = site.data.t[page.lang] %}
 
-## {{ t.play_in_browser }}
+## {{ t.play_in_browser }} (you need to launch in different browsers)
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
     position: absolute; 
