@@ -9,19 +9,20 @@ lang: ru
 {% assign t = site.data.t[page.lang] %}
 
 ## {{ t.play_in_browser }}
+
 <div class="unity-container" id="unity-loader-container">
   <div id="game-cover" style="
-    position: absolute; 
-    width: 100%; 
-    height: 100%; 
-    background: url('{{ "/assets/images/crossbow-pvp-preview.png" | relative_url }}') no-repeat center; 
-    background-size: cover; 
-    z-index: 2; 
-    display: flex; 
-    justify-content: center; 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url('{{ "/assets/images/crossbow-pvp-preview.png" | relative_url }}') no-repeat center;
+    background-size: cover;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
     align-items: center;
     border-radius: 10px;">
-    
+
     <button class="btn" onclick="loadUnityGame()" style="padding: 20px 40px; font-size: 1.5rem; cursor: pointer;">
       Run Game 🎮
     </button>
@@ -30,19 +31,47 @@ lang: ru
   <div id="iframe-placeholder" style="width: 100%; height: 100%;"></div>
 </div>
 
+<div style="margin-top:15px; text-align:center;">
+  <button class="btn" onclick="toggleFullscreen()">
+    ⛶ Fullscreen
+  </button>
+</div>
+
 <script>
+let gameIframe = null;
+
 function loadUnityGame() {
   const container = document.getElementById('iframe-placeholder');
   const cover = document.getElementById('game-cover');
-  
-  // URL вашего билда
+
   const gameUrl = "{{ '/builds/crossbow-pvp/index.html' | relative_url }}";
-  
-  // Создаем iframe динамически
-  container.innerHTML = `<iframe src="${gameUrl}" allowfullscreen style="width:100%; height:100%; border:none;"></iframe>`;
-  
-  // Скрываем обложку
+
+  container.innerHTML = `
+    <iframe
+      id="unity-game"
+      src="${gameUrl}"
+      allowfullscreen
+      style="width:100%; height:100%; border:none;">
+    </iframe>
+  `;
+
+  gameIframe = document.getElementById("unity-game");
+
   cover.style.display = 'none';
+}
+
+function toggleFullscreen() {
+  const target = document.getElementById("unity-loader-container");
+
+  if (!target) return;
+
+  if (target.requestFullscreen) {
+    target.requestFullscreen();
+  } else if (target.webkitRequestFullscreen) {
+    target.webkitRequestFullscreen();
+  } else if (target.msRequestFullscreen) {
+    target.msRequestFullscreen();
+  }
 }
 </script>
 
