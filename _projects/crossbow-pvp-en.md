@@ -93,6 +93,7 @@ function loadUnityGame() {
 
 ## Links
 - ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon}[GitHub](https://github.com/furyohfury/FreeRealEstate/tree/multiplayers)
+- [Itch.io](https://furyohfury.itch.io/crossbow-pvp)
 
 ## {{ t.game_technologies }}
 - Netcode for Gameobjects
