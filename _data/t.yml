@@ -95,6 +95,16 @@ en:
     - Project is expandable to a game with a full list of beatmaps, but i've been too lazy to create a menu for it and parse more beatmaps. 😛
   zero_resistance_goals:
     - Building a small game during a three-day game jam
+  crossbow_pvp_goals:
+    - Developed a two-player 3D shooter using Unity Netcode and Unity Multiplayer Services.
+    - Implemented a lobby creation and connection system using Unity Multiplayer Services.
+    - Designed a component-based game character architecture, separating game logic into independent modules and combining them in a facade class to improve extensibility and maintainability.
+    - Implemented a networked crossbow shooting system with correct hit synchronization between clients.
+    - Developed a visual system for arrows getting stuck in players and the environment through local spawning of client objects without additional network load.
+    - Implemented a scoring system and synchronization between players with results displayed in the UI.
+    - Developed a flexible UI architecture based on a UI stack.
+    - Implemented the UI using R3, UniTask, and DOTween, ensuring reactive data updates, asynchronous event handling, and smooth animations. - Implemented Zenject to implement dependency injection and reduce coupling between game systems. Created a custom NetworkObject prefab spawner with dependency injection.
+    - Designed the project architecture with an emphasis on scalability, code readability, and the ability to further expand functionality.
 
 ru:
   back_to_main: "На главную"
@@ -193,3 +203,14 @@ ru:
     - Вообще проект расширяем до игры с полноценным списком карт, но делать для этого меню и парсить больше карт уже было лень 😛
   zero_resistance_goals:
     - Построение небольшой игры в ходе трехдневного геймджема
+  crossbow_pvp_goals:
+    - Разработал мультиплеерный 3D-шутер для двух игроков с использованием Unity Netcode и Unity Multiplayer Services.
+    - Реализовал систему создания и подключения к лобби через Unity Multiplayer Services.
+    - Спроектировал компонентную архитектуру игрового персонажа, разделив игровую логику на независимые модули с объединением в классе фасаде для повышения расширяемости и поддержки.
+    - Реализовал сетевую систему стрельбы из арбалета с корректной синхронизацией попаданий между клиентами.
+    - Разработал систему визуального застревания стрел в игроках и окружении через локальный спавн клиентских объектов без дополнительной сетевой нагрузки.
+    - Реализовал систему подсчета очков и их синхронизацию между игроками с отображением результатов в UI.
+    - Разработал гибкую архитектуру пользовательского интерфейса на основе стековой системы экранов (UI Stack).
+    - Реализовал UI с использованием R3, UniTask и DOTween, обеспечив реактивное обновление данных, асинхронную обработку событий и плавные анимации.
+    - Внедрил Zenject для организации внедрения зависимостей и снижения связанности между игровыми системами. Создал специальный спавнер NetworkObject префабов с инъекцией в них зависимостей.
+    - Спроектировал архитектуру проекта с упором на масштабируемость, читаемость кода и возможность дальнейшего расширения функциональности.

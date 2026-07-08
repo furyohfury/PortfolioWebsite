@@ -44,3 +44,6 @@ collections:
   cat-cloud-screenshots:
     output: false
     permalink: /cat-cloud-screenshots/:name/
+  crossbow-pvp-screenshots:
+    output: false
+    permalink: /crossbow-pvp-screenshots/:name/
