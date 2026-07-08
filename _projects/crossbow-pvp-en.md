@@ -2,7 +2,7 @@
 layout: game-page
 title: "Crossbow PVP"
 description: "A 1x1 multiplayer shooter based on Unity netcode."
-image: "/assets/images/crossbow-pvp.png"  # Превью для карточки
+image: "/assets/images/crossbow-pvp-preview.png"  # Превью для карточки
 priority: -5
 lang: en
 ---
