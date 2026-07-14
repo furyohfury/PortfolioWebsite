@@ -365,6 +365,7 @@ body {
 .portfolio-project-card {
   min-width: 0;
   overflow: hidden;
+  padding: 28px 28px 0;
   border: 1px solid #cfd5cf;
   border-radius: 18px;
   background: #fff;
@@ -372,7 +373,7 @@ body {
 
 .project-media {
   display: block;
-  margin: 28px 28px 0;
+  margin: 0;
   overflow: hidden;
   border-radius: 12px;
   aspect-ratio: 16 / 10;
@@ -387,7 +388,7 @@ body {
 }
 
 .project-card-body {
-  padding: 24px 28px 28px;
+  padding: 24px 0 28px;
 }
 
 .project-card-body h3 {
@@ -514,6 +515,10 @@ body {
   background: #fff;
 }
 
+.contact-resume-button {
+  margin-top: 0;
+}
+
 @media (max-width: 900px) {
   .portfolio-panel {
     padding: 38px 28px;
@@ -570,10 +575,14 @@ body {
   }
 
   .project-media {
-    margin: 18px 18px 0;
+    margin: 0;
   }
 
   .project-card-body {
-    padding: 20px 18px 22px;
+    padding: 20px 0 22px;
+  }
+
+  .portfolio-project-card {
+    padding: 18px 18px 0;
   }
 }
