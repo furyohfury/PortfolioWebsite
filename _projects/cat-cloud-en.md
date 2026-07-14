@@ -3,6 +3,9 @@ layout: game-page
 title: "Cat-cloud"
 description: "Game developed during Siberian game jam 2026 as part of a team"
 image: "/assets/images/cat-cloud-preview.png"  # Превью для карточки
+technologies:
+  - DOTween
+  - UniTask
 priority: -3
 lang: en
 ---

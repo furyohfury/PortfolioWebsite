@@ -3,6 +3,13 @@ layout: game-page
 title: "Taiko"
 description: "Rhytm taiko game"
 image: "/assets/images/taiko-preview.png"  # Превью для карточки
+technologies:
+  - Firebase
+  - Addressables
+  - VContainer
+  - DOTween
+  - R3
+  - UniTask
 priority: 3
 lang: en
 ---

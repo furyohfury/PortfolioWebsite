@@ -3,6 +3,12 @@ layout: game-page
 title: "Totally not pikmin"
 description: "3D игра, наподобие Pikmin, в которой нужно взять на себя управление группой существ."
 image: "/assets/images/pikmin-preview.png"  # Превью для карточки
+technologies:
+  - Unity Behaviour
+  - R3
+  - UniTask
+  - DOTween
+  - Zenject
 priority: 2
 lang: ru
 ---

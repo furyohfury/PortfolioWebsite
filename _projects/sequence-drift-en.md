@@ -3,6 +3,9 @@ layout: game-page
 title: "Sequence drift"
 description: "Game development during Ludum dare 59 in tandem with an artist"
 image: "/assets/images/sequence-drift-preview.jpg"  # Превью для карточки
+technologies:
+  - DOTween
+  - Awaitable
 priority: -2
 lang: en
 ---

@@ -3,6 +3,11 @@ layout: game-page
 title: "Neon What"
 description: "2D level speedrun game. Neon White clone"
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
+technologies:
+  - Atomic framework
+  - Zenject
+  - unity-ai
+  - DOTween
 priority: 1
 lang: en
 ---

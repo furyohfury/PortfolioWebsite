@@ -3,6 +3,9 @@ layout: game-page
 title: "Zero resistance"
 description: "A 2D side-scroller set in space. Developed solo during a game jam."
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
+technologies:
+  - Zenject
+  - DOTween
 priority: 4
 lang: en
 ---

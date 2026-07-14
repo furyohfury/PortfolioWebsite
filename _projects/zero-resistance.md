@@ -3,6 +3,9 @@ layout: game-page
 title: "Zero resistance"
 description: "2D сайдскроллер в космосе. Разработана в одиночку в ходе геймджема"
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
+technologies:
+  - Zenject
+  - DOTween
 priority: 4
 lang: ru
 ---

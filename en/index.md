@@ -1,89 +1,125 @@
 ---
 layout: default
-title: My Unity portfolio
+title: "Unity Developer Portfolio"
 lang: en
 ---
-
 {% assign t = site.data.t[page.lang] %}
 
-## Artem Kuzminikh
+<section class="portfolio-panel hero-panel">
+  <nav class="top-nav" aria-label="Primary navigation">
+    <a class="nav-pill active" href="{{ '/en/' | relative_url }}">Home</a>
+    <button class="theme-button" type="button" aria-label="Toggle light or dark theme" disabled>
+      <span class="theme-icon" aria-hidden="true"></span>
+    </button>
+    <div class="language-toggle" aria-label="Language switcher">
+      <a class="language-option" href="{{ '/' | relative_url }}">RU</a>
+      <a class="language-option active" href="{{ '/en/' | relative_url }}">EN</a>
+    </div>
+  </nav>
 
-<div class="info-block" markdown="1">
+  <div class="hero-grid">
+    <div class="hero-copy">
+      <p class="section-kicker">Unity Developer</p>
+      <h1>Artem Kuzminikh</h1>
+      <p class="hero-lead">
+        I build 2D and 3D Unity games, design gameplay architecture, and turn prototypes into clear playable experiences.
+      </p>
 
-### {{ t.contacts }}
+      <div class="contact-actions" aria-label="{{ t.contacts }}">
+        <a class="icon-action icon-email is-placeholder" href="mailto:artemkuzminikh@gmail.com" aria-label="{{ t.email_label }}"></a>
+        <a class="icon-action icon-telegram is-placeholder" href="https://t.me/artemkuzminikh" aria-label="{{ t.telegram_label }}"></a>
+        <a class="icon-action" href="https://github.com/furyohfury" aria-label="GitHub">
+          <img src="https://github.githubassets.com/favicons/favicon.svg" alt="">
+        </a>
+        <a class="icon-action" href="https://furyohfury.itch.io/" aria-label="itch.io">
+          <img src="https://static.itch.io/images/itchio-textless-black.svg" alt="">
+        </a>
+        <a class="icon-action" href="https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761" aria-label="hh.ru">
+          <img src="https://i.hh.ru/images/logos/svg/hh.ru.svg" alt="">
+        </a>
+      </div>
+    </div>
 
-* **{{ t.email_label }}:** [artemkuzminikh@gmail.com](mailto:artemkuzminikh@gmail.com)
-* **{{ t.telegram_label }}:** [t.me/artemkuzminikh](https://t.me/artemkuzminikh)
-* **Github:** ![GitHub icon](https://github.githubassets.com/favicons/favicon.svg){: .icon} [{{ t.github_link }}](https://github.com/furyohfury)
-* **itch.io:** ![Itch icon](https://static.itch.io/images/itchio-textless-black.svg){: .icon} [{{ t.itch_link }}](https://furyohfury.itch.io/)
-* **hh.ru:** ![HH icon](https://i.hh.ru/images/logos/svg/hh.ru.svg){: .icon} [{{ t.hh_link }}](https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761)
+    <div class="hero-visual" aria-hidden="true">
+      <img src="{{ '/assets/images/crossbow-pvp-preview.png' | relative_url }}" alt="">
+    </div>
+  </div>
+</section>
 
-</div>
+<section class="portfolio-panel projects-panel">
+  <div class="section-heading">
+    <p class="section-kicker">Projects</p>
+    <h2>My Projects</h2>
+  </div>
 
-<div class="two-column-layout">
+  <div class="portfolio-project-grid">
+    {% assign sorted_projects = site.projects | where: "lang", page.lang | sort: "priority" %}
+    {% for project in sorted_projects %}
+      <article class="portfolio-project-card">
+        <a class="project-media" href="{{ project.url | relative_url }}" aria-label="{{ project.title }}">
+          <img src="{{ project.image | relative_url }}" alt="{{ project.title }}">
+        </a>
+        <div class="project-card-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+          <div class="tech-tags" aria-label="{{ t.game_technologies }}">
+            {% for tech in project.technologies limit: 4 %}
+              <span>{{ tech }}</span>
+            {% endfor %}
+          </div>
+          <a class="project-link" href="{{ project.url | relative_url }}">
+            <span>View Project</span>
+            <span class="arrow-circle" aria-hidden="true">→</span>
+          </a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
-  <div class="column-left">
-    <div class="info-block">
+<section class="portfolio-panel story-panel">
+  <div class="section-heading centered">
+    <p class="section-kicker">My Story</p>
+    <h2>About Me</h2>
+  </div>
+
+  <div class="story-stack">
+    <article class="story-block">
       <h3>{{ t.skills_title }}</h3>
       <ul>
         {% for skill in t.skills_list %}
           <li>{{ skill }}</li>
         {% endfor %}
       </ul>
-    </div>
+    </article>
 
-    <div class="info-block">
-      <h3>{{ t.projects_title }}</h3>
-      <div class="game-grid">
-        {% assign sorted_projects = site.projects | where: "lang", page.lang | sort: "priority" %}
-        {% for project in sorted_projects %}
-          <div class="game-card">
-            <h4><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h4>
-            <a href="{{ project.url | relative_url }}">
-              <img src="{{ project.image | relative_url }}" alt="{{ project.title }}" class="project-image" />
-            </a>
-          </div>
-        {% endfor %}
-      </div>
-    </div>
-  </div>
-
-  <div class="column-right">
-    <div class="info-block">
+    <article class="story-block">
       <h3>{{ t.experience_title }}</h3>
       <h4>Bibamus</h4>
-      <b>{{ t.job_role }}</b><br>
-      {{ t.job_date }}
+      <p><strong>{{ t.job_role }}</strong><br>{{ t.job_date }}</p>
       <ul>
         {% for item in t.job_description %}
           <li>{{ item }}</li>
         {% endfor %}
       </ul>
-    </div>
+    </article>
 
-    <div class="info-block">
+    <article class="story-block">
       <h3>{{ t.courses_title }}</h3>
       <ul>
-        <li><b>Otus</b><br>
-          <img src="https://otus.ru/static/img/favicons/favicon-32x32.png" class="icon" alt="OTUS icon">
-          <a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a>
-          05.2024 - 03.2025<br>
-          {{ t.otus_desc }}
-        </li>
-        <li><b>Netology</b><br>
-          <img src="https://netology.ru/favicon-32x32.png" class="icon" alt="Netology icon">
-          <a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a>
-          04.2023 - 03.2024<br>
-          {{ t.netology_desc }}
-        </li>
+        <li><strong>Otus</strong> - <a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a>, 05.2024 - 03.2025. {{ t.otus_desc }}</li>
+        <li><strong>Netology</strong> - <a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a>, 04.2023 - 03.2024. {{ t.netology_desc }}</li>
       </ul>
-    </div>
+    </article>
 
-    <div class="info-block">
+    <article class="story-block">
       <h3>{{ t.education_title }}</h3>
-      <b>{{ t.university }}</b>, Moscow<br>
-      {{ t.specialty }}<br>
-      2015-2020
-    </div>
+      <p><strong>{{ t.university }}</strong>, Moscow<br>{{ t.specialty }}<br>2015-2020</p>
+    </article>
   </div>
-</div>
+
+  <a class="resume-button" href="{{ '/assets/files/resume.pdf' | relative_url }}" download>
+    Download Resume
+    <span aria-hidden="true">→</span>
+  </a>
+</section>

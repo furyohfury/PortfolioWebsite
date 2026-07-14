@@ -3,6 +3,9 @@ layout: game-page
 title: "Card auto-battler"
 description: "It's what it is"
 image: "/assets/images/card-autobattler-preview.png"  # Превью для карточки
+technologies:
+  - DOTween
+  - Zenject
 priority: 6
 lang: en
 ---

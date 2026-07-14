@@ -3,6 +3,12 @@ layout: game-page
 title: "Crossbow PVP"
 description: "Мультиплеерный 1x1 шутер на основе Unity netcode"
 image: "/assets/images/crossbow-pvp-preview.png"  # Превью для карточки
+technologies:
+  - Netcode for Gameobjects
+  - DOTween
+  - UniTask
+  - Zenject
+  - R3
 priority: -5
 lang: ru
 ---

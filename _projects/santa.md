@@ -3,6 +3,10 @@ layout: game-page
 title: "Don't upset the Santa"
 description: "Казуальная игра про сортировку с возможностью удаленного редактирования конфигов"
 image: "/assets/images/santa-preview.png"  # Превью для карточки
+technologies:
+  - Yandex Games SDK
+  - DOTween
+  - Awaitable
 priority: -5
 lang: ru
 ---
