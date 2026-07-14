@@ -7,7 +7,7 @@ lang: en
 
 <section class="portfolio-panel hero-panel">
   <nav class="top-nav" aria-label="Primary navigation">
-    <button class="theme-button" type="button" aria-label="Toggle light or dark theme" disabled>
+    <button class="theme-button" type="button" aria-label="Toggle light or dark theme" data-theme-toggle>
       <span class="theme-icon" aria-hidden="true"></span>
     </button>
     <div class="language-toggle" aria-label="Language switcher">

@@ -7,7 +7,7 @@ lang: ru
 
 <section class="portfolio-panel hero-panel">
   <nav class="top-nav" aria-label="Основная навигация">
-    <button class="theme-button" type="button" aria-label="Переключить светлую или темную тему" disabled>
+    <button class="theme-button" type="button" aria-label="Переключить светлую или темную тему" data-theme-toggle>
       <span class="theme-icon" aria-hidden="true"></span>
     </button>
     <div class="language-toggle" aria-label="Смена языка">

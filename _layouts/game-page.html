@@ -15,6 +15,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#111111">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <script>
+      (function () {
+        var savedTheme = localStorage.getItem("portfolio-theme");
+        var preferredTheme = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = savedTheme || preferredTheme;
+      })();
+    </script>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/css/custom.css' | relative_url }}">
     {% include head-custom.html %}
@@ -26,7 +33,7 @@
       <section class="portfolio-panel hero-panel project-hero-panel">
         <nav class="top-nav" aria-label="Project navigation">
           <a class="nav-pill" href="{% if page.lang == 'en' %}{{ '/en/' | relative_url }}{% else %}{{ '/' | relative_url }}{% endif %}">Home</a>
-          <button class="theme-button" type="button" aria-label="Toggle light or dark theme" disabled>
+          <button class="theme-button" type="button" aria-label="Toggle light or dark theme" data-theme-toggle>
             <span class="theme-icon" aria-hidden="true"></span>
           </button>
           <div class="language-toggle" aria-label="Language switcher">
@@ -37,7 +44,6 @@
 
         <div class="project-hero-grid">
           <div class="project-hero-copy">
-            <p class="section-kicker">Project</p>
             <h1>{{ page.title }}</h1>
             {% if page.description %}
               <p class="hero-lead">{{ page.description }}</p>
@@ -177,6 +183,22 @@
           else if (target.msRequestFullscreen) target.msRequestFullscreen();
         });
       });
+
+      function applyTheme(theme) {
+        document.documentElement.dataset.theme = theme;
+        localStorage.setItem("portfolio-theme", theme);
+        document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+          button.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+        });
+      }
+
+      document.querySelectorAll("[data-theme-toggle]").forEach((button) => {
+        button.addEventListener("click", () => {
+          applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark");
+        });
+      });
+
+      applyTheme(document.documentElement.dataset.theme || "light");
     </script>
   </body>
 </html>
