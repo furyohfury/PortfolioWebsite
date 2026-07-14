@@ -19,20 +19,24 @@ lang: ru
 
   <div class="hero-grid">
     <div class="hero-copy">
-      <p class="section-kicker">Unity Developer</p>
+      <p class="section-kicker"><h2>Unity Developer</h2></p>
       <h1>Артем Кузьминых</h1>
       <p class="hero-lead">
         Разрабатываю 2D/3D игры на Unity, проектирую архитектуру игровых систем и довожу прототипы до понятного, играбельного результата.
       </p>
 
       <div class="contact-actions" aria-label="{{ t.contacts }}">
-        <a class="icon-action icon-email is-placeholder" href="mailto:artemkuzminikh@gmail.com" aria-label="{{ t.email_label }}"></a>
-        <a class="icon-action icon-telegram is-placeholder" href="https://t.me/artemkuzminikh" aria-label="{{ t.telegram_label }}"></a>
+        <a class="icon-action icon-email" href="mailto:artemkuzminikh@gmail.com" aria-label="{{ t.email_label }}">
+          <img src="{{ '/assets/images/index/gmail-logo.svg' | relative_url }}" alt="">
+        </a>
+        <a class="icon-action icon-telegram" href="https://t.me/artemkuzminikh" aria-label="{{ t.telegram_label }}">
+          <img src="{{ '/assets/images/index/telegram-logo.svg' | relative_url }}" alt="">
+        </a>
         <a class="icon-action" href="https://github.com/furyohfury" aria-label="GitHub">
           <img src="https://github.githubassets.com/favicons/favicon.svg" alt="">
         </a>
         <a class="icon-action" href="https://furyohfury.itch.io/" aria-label="itch.io">
-          <img src="https://static.itch.io/images/itchio-textless-black.svg" alt="">
+          <img src="{{ '/assets/images/index/itch-logo.svg' | relative_url }}" alt="">
         </a>
         <a class="icon-action" href="https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761" aria-label="hh.ru">
           <img src="https://i.hh.ru/images/logos/svg/hh.ru.svg" alt="">
@@ -52,7 +56,7 @@ lang: ru
 
 <section class="portfolio-panel projects-panel">
   <div class="section-heading">
-    <p class="section-kicker">{{ t.projects_title }}</p>
+    <p class="section-kicker"><h2>{{ t.projects_title }}</h2></p>
   </div>
 
   <div class="portfolio-project-grid">
@@ -82,7 +86,7 @@ lang: ru
 
 <section class="portfolio-panel story-panel">
   <div class="section-heading centered">
-    <p class="section-kicker">{{ t.about_me }}</p>
+    <p class="section-kicker"><h2>{{ t.about_me }}</h2></p>
   </div>
 
   <div class="story-stack">
@@ -109,8 +113,8 @@ lang: ru
     <article class="story-block">
       <h3>{{ t.courses_title }}</h3>
       <ul>
-        <li><strong>Otus</strong> — 05.2024 - 03.2025, <a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a> <br>{{ t.otus_desc }}</li>
-        <li><strong>Netology</strong> — 04.2023 - 03.2024, <a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a> <br>{{ t.netology_desc }}</li>
+        <li><strong>Otus</strong> — 05.2024 - 03.2025, <a class="text-link" href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a> <br>{{ t.otus_desc }}</li>
+        <li><strong>Netology</strong> — 04.2023 - 03.2024, <a class="text-link" href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a> <br>{{ t.netology_desc }}</li>
       </ul>
     </article>
 

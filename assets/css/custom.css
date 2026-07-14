@@ -144,6 +144,12 @@ body {
   color: inherit;
 }
 
+.portfolio-home .text-link {
+  text-decoration: underline;
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+}
+
 .portfolio-home .site-footer {
   display: none;
 }
@@ -313,7 +319,7 @@ body {
   width: 20px;
   height: 20px;
   object-fit: contain;
-  filter: grayscale(1);
+  filter: none;
 }
 
 .icon-action.is-placeholder::before {
