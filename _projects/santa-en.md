@@ -3,6 +3,16 @@ layout: game-page
 title: "Don't upset the Santa"
 description: "A casual sorting game with remote configuration editing."
 image: "/assets/images/santa-preview.png"  # Превью для карточки
+links:
+  - title: "Yandex Games"
+    url: "https://yandex.ru/games/app/509764?draft=true&lang=ru"
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/FreeRealEstate/tree/conveyors-yandex"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/uxJ3RavduUo"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023&hash=eb36a0dfb8f81cc6&hd=4"
 technologies:
   - Yandex Games SDK
   - DOTween

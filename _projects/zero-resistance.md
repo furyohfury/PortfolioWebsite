@@ -3,6 +3,14 @@ layout: game-page
 title: "Zero resistance"
 description: "2D сайдскроллер в космосе. Разработана в одиночку в ходе геймджема"
 image: "/assets/images/zero-resistance-preview.png"  # Превью для карточки
+links:
+  - title: "Windows, WebGL"
+    url: "https://furyohfury.itch.io/zeroresistanceweb3"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/3abxonV4zNg"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239018&hd=2&hash=5e5939ef087a8e31"
 technologies:
   - Zenject
   - DOTween

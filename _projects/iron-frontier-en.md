@@ -3,6 +3,12 @@ layout: game-page
 title: "Iron frontier"
 description: "Participation in development of card strategy-roguelike as part of indie game studio Bibamus"
 image: "/assets/images/iron-frontier-preview.jpg"  # Превью для карточки
+links:
+  - title: "Steam"
+    url: "https://store.steampowered.com/app/2131290/Iron_Frontier/"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/C0BmLHdaJBw"
 technologies:
   - Zenject
   - Awaitable

@@ -3,6 +3,14 @@ layout: game-page
 title: "Тучка"
 description: "Разработка игры в ходе Siberian game jam 2026 в команде"
 image: "/assets/images/cat-cloud-preview.png"  # Превью для карточки
+play_url: "/builds/cat-cloud/index.html"
+links:
+  - title: "Itch.io"
+    url: "https://furyohfury.itch.io/cat-cloud"
+  - title: "SibGJ"
+    url: "https://platform.sibgamejam.com/games/alinaapril17/cat-cloud"
+  - title: "GitHub"
+    url: "https://github.com/D0GMAR/SibGJ2026"
 technologies:
   - DOTween
   - UniTask

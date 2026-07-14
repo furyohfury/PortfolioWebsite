@@ -3,6 +3,16 @@ layout: game-page
 title: "Taiko"
 description: "Ритм-игра taiko"
 image: "/assets/images/taiko-preview.png"  # Превью для карточки
+links:
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/FreeRealEstate/tree/Taiko"
+  - title: "GoogleDrive .apk"
+    url: "https://drive.google.com/file/d/1CwqQrRcmiv9DTQFTY_kUM9-Rbo4HtuHo/view?usp=sharing"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/Rv4SX6Viylc"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239022&hd=2&hash=c26e640104b6f2cc&autoplay=1"
 technologies:
   - Firebase
   - Addressables

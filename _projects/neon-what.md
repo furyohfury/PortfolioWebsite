@@ -3,6 +3,16 @@ layout: game-page
 title: "Neon What"
 description: "2D платформер-пазл с уровнями на время. Клон игры Neon White"
 image: "/assets/images/neon-what-preview.png"  # Превью для карточки
+links:
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/Otus_Homework/tree/Project"
+  - title: "Windows, Android"
+    url: "https://furyohfury.itch.io/neon-what"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/q-3dstQtX5M"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239017&hd=2&hash=ddcc9bb9b15d6a76"
 technologies:
   - Atomic framework
   - Zenject

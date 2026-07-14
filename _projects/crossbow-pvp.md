@@ -3,6 +3,18 @@ layout: game-page
 title: "Crossbow PVP"
 description: "Мультиплеерный 1x1 шутер на основе Unity netcode"
 image: "/assets/images/crossbow-pvp-preview.png"  # Превью для карточки
+play_url: "/builds/crossbow-pvp/index.html"
+play_note: "Нужно запускать в разных браузерах"
+links:
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/FreeRealEstate/tree/multiplayers"
+  - title: "Itch.io"
+    url: "https://furyohfury.itch.io/crossbow-pvp"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/uxJ3RavduUo"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239023&hash=eb36a0dfb8f81cc6&hd=4"
 technologies:
   - Netcode for Gameobjects
   - DOTween

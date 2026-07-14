@@ -3,6 +3,14 @@ layout: game-page
 title: "Sequence drift"
 description: "Game development during Ludum dare 59 in tandem with an artist"
 image: "/assets/images/sequence-drift-preview.jpg"  # Превью для карточки
+play_url: "/builds/sequence-drift/index.html"
+links:
+  - title: "Itch.io"
+    url: "https://furyohfury.itch.io/sequence-drift"
+  - title: "Ludum Dare"
+    url: "https://ldjam.com/events/ludum-dare/59/sequence-drift"
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/LDJam59"
 technologies:
   - DOTween
   - Awaitable

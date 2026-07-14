@@ -3,6 +3,16 @@ layout: game-page
 title: "Totally not pikmin"
 description: "3D игра, наподобие Pikmin, в которой нужно взять на себя управление группой существ."
 image: "/assets/images/pikmin-preview.png"  # Превью для карточки
+links:
+  - title: "GitHub"
+    url: "https://github.com/furyohfury/FreeRealEstate/tree/Pikmin"
+  - title: "Windows"
+    url: "https://furyohfury.itch.io/totally-not-pikmin"
+videos:
+  - title: "YouTube"
+    url: "https://www.youtube.com/embed/Ymxn-hAhA-U"
+  - title: "VK Video"
+    url: "https://vkvideo.ru/video_ext.php?oid=-231591601&id=456239019&hd=2&hash=91cd2a2812a6dac4"
 technologies:
   - Unity Behaviour
   - R3
