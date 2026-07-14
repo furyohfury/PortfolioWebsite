@@ -49,7 +49,7 @@ lang: ru
     </div>
 
     <div class="hero-visual" aria-hidden="true">
-      <img src="{{ '/assets/images/crossbow-pvp-preview.png' | relative_url }}" alt="">
+      <img src="{{ '/assets/images/photo.jpg' | relative_url }}" alt="">
     </div>
   </div>
 </section>
