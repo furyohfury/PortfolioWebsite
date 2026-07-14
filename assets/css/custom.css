@@ -303,16 +303,17 @@ body {
   height: 48px;
   display: inline-grid;
   place-items: center;
-  border: 1px solid #dfe3dc;
+  border: 1px solid #111;
   border-radius: 999px;
-  background: #111;
+  background: #fff;
   text-decoration: none;
-  transition: transform 160ms ease, background 160ms ease;
+  transition: transform 160ms ease, background 160ms ease, border-color 160ms ease;
 }
 
 .icon-action:hover {
   transform: translateY(-2px);
-  background: #2a2a2a;
+  background: #f4f5f1;
+  border-color: #111;
 }
 
 .icon-action img {
@@ -505,12 +506,19 @@ body {
   gap: 12px;
   margin-top: 28px;
   padding: 10px 10px 10px 18px;
+  border: 1px solid #111;
   border-radius: 999px;
-  color: #fff !important;
-  background: #111;
+  color: #111 !important;
+  background: #fff;
   font-size: 14px;
   font-weight: 900;
   text-decoration: none;
+  transition: transform 160ms ease, background 160ms ease;
+}
+
+.resume-button:hover {
+  transform: translateY(-2px);
+  background: #f4f5f1;
 }
 
 .resume-button span {
@@ -520,8 +528,8 @@ body {
   place-items: center;
   padding-bottom: 2px;
   border-radius: 50%;
-  color: #111;
-  background: #fff;
+  color: #fff;
+  background: #111;
   line-height: 1;
 }
 
