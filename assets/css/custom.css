@@ -444,10 +444,12 @@ body {
   height: 38px;
   display: inline-grid;
   place-items: center;
+  padding-bottom: 2px;
   border: 1px solid #101010;
   border-radius: 50%;
   background: #fff;
   font-size: 20px;
+  line-height: 1;
 }
 
 .project-link:hover .arrow-circle,
@@ -516,9 +518,11 @@ body {
   height: 28px;
   display: inline-grid;
   place-items: center;
+  padding-bottom: 2px;
   border-radius: 50%;
   color: #111;
   background: #fff;
+  line-height: 1;
 }
 
 .contact-resume-button {
