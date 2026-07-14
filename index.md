@@ -48,8 +48,7 @@ lang: ru
 
 <section class="portfolio-panel projects-panel">
   <div class="section-heading">
-    <p class="section-kicker">Projects</p>
-    <h2>Мои проекты</h2>
+    <p class="section-kicker">{{ t.projects_title }}</p>
   </div>
 
   <div class="portfolio-project-grid">
@@ -79,8 +78,7 @@ lang: ru
 
 <section class="portfolio-panel story-panel">
   <div class="section-heading centered">
-    <p class="section-kicker">My Story</p>
-    <h2>Обо мне</h2>
+    <p class="section-kicker">{{ t.about_me }}</p>
   </div>
 
   <div class="story-stack">
@@ -107,8 +105,8 @@ lang: ru
     <article class="story-block">
       <h3>{{ t.courses_title }}</h3>
       <ul>
-        <li><strong>Otus</strong> — <a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a>, 05.2024 - 03.2025. {{ t.otus_desc }}</li>
-        <li><strong>Netology</strong> — <a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a>, 04.2023 - 03.2024. {{ t.netology_desc }}</li>
+        <li><strong>Otus</strong> — 05.2024 - 03.2025, <a href="https://otus.ru/certificate/bc7bdffd58dd452abe5645de0b2d0c88/">{{ t.certificate }}</a> <br>{{ t.otus_desc }}</li>
+        <li><strong>Netology</strong> — 04.2023 - 03.2024, <a href="https://netology.ru/sharing/26274951829d26fd5eec9f350a43c47a">{{ t.certificate }}</a> <br>{{ t.netology_desc }}</li>
       </ul>
     </article>
 
@@ -119,7 +117,7 @@ lang: ru
   </div>
 
   <a class="resume-button" href="{{ '/assets/files/resume.pdf' | relative_url }}" download>
-    Скачать резюме
+    {{ t.download_resume }}
     <span aria-hidden="true">→</span>
   </a>
 </section>

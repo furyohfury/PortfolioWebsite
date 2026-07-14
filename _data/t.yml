@@ -6,6 +6,8 @@ en:
   github_link: "My GitHub"
   itch_link: "My itch.io"
   hh_link: "Resume on hh"
+  about_me: "About me"
+  download_resume: "Download resume"
   
   skills_title: "Skills"
   skills_list:
@@ -113,7 +115,9 @@ ru:
   telegram_label: "Телеграм"
   github_link: "Мой GitHub"
   itch_link: "Мой itch.io"
-  hh_link: "Резюме на hh"
+  hh_link: "Резюме на hh"  
+  about_me: "Обо мне"
+  download_resume: "Скачать резюме"
   
   skills_title: "Навыки"
   skills_list:
