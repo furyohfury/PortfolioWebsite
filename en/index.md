@@ -7,7 +7,6 @@ lang: en
 
 <section class="portfolio-panel hero-panel">
   <nav class="top-nav" aria-label="Primary navigation">
-    <a class="nav-pill active" href="{{ '/en/' | relative_url }}">Home</a>
     <button class="theme-button" type="button" aria-label="Toggle light or dark theme" disabled>
       <span class="theme-icon" aria-hidden="true"></span>
     </button>
