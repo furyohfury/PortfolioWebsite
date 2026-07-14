@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
 {% assign t = site.data.t[page.lang] %}
-{% assign project_base = page.name | replace: ".md", "" | replace: "-en", "" %}
+{% assign project_base = page.url | remove_first: "/projects/" | remove: "/" | remove: "-en" %}
 {% assign screenshots_collection = project_base | append: "-screenshots" %}
 {% assign screenshots = site[screenshots_collection] %}
 {% assign goals_key = project_base | replace: "-", "_" | append: "_goals" %}
@@ -37,7 +37,8 @@
 
         <div class="project-hero-grid">
           <div class="project-hero-copy">
-            <p class="section-kicker"><h1>{{ page.title }}</h1></p>
+            <p class="section-kicker">Project</p>
+            <h1>{{ page.title }}</h1>
             {% if page.description %}
               <p class="hero-lead">{{ page.description }}</p>
             {% endif %}
@@ -154,8 +155,16 @@
           const panel = button.closest(".project-game-frame");
           const placeholder = panel.querySelector("[data-iframe-placeholder]");
           const cover = panel.querySelector("[data-game-cover]");
-          placeholder.innerHTML = `<iframe src="${button.dataset.gameUrl}" allowfullscreen></iframe>`;
-          cover.hidden = true;
+          placeholder.innerHTML = `
+            <iframe
+              id="unity-game"
+              src="${button.dataset.gameUrl}"
+              allowfullscreen
+              style="width:100%; height:100%; border:none;">
+            </iframe>
+          `;
+
+          cover.style.display = "none";
         });
       });
 
