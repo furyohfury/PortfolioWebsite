@@ -41,7 +41,7 @@ lang: en
         <a class="icon-action" href="https://hh.ru/resume/2eda4b93ff0ed8f2ba0039ed1f38384d4c7761" aria-label="hh.ru">
           <img src="https://i.hh.ru/images/logos/svg/hh.ru.svg" alt="">
         </a>
-        <a class="resume-button contact-resume-button" href="{{ '/assets/files/resume.pdf' | relative_url }}" download>
+        <a class="resume-button contact-resume-button" href="{{ '/assets/files/Resume Kuzminikh Artem.pdf' | relative_url }}" download>
           {{ t.download_resume }}
           <span aria-hidden="true">→</span>
         </a>
