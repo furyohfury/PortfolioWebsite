@@ -8,6 +8,7 @@ en:
   hh_link: "Resume on hh"
   about_me: "About me"
   download_resume: "Download resume"
+  details: "Details"
   
   skills_title: "Skills"
   skills_list:
@@ -118,6 +119,7 @@ ru:
   hh_link: "Резюме на hh"  
   about_me: "Обо мне"
   download_resume: "Скачать резюме"
+  details: "Детали"
   
   skills_title: "Навыки"
   skills_list:

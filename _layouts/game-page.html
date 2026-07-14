@@ -37,8 +37,7 @@
 
         <div class="project-hero-grid">
           <div class="project-hero-copy">
-            <p class="section-kicker">Project</p>
-            <h1>{{ page.title }}</h1>
+            <p class="section-kicker"><h1>{{ page.title }}</h1></p>
             {% if page.description %}
               <p class="hero-lead">{{ page.description }}</p>
             {% endif %}
@@ -59,8 +58,7 @@
       {% if page.play_url %}
         <section class="portfolio-panel project-play-panel">
           <div class="section-heading centered">
-            <p class="section-kicker">WebGL</p>
-            <h2>{{ t.play_in_browser }}</h2>
+            <p class="section-kicker"><h2>{{ t.play_in_browser }}</h2></p>
             {% if page.play_note %}
               <p class="project-panel-note">{{ page.play_note }}</p>
             {% endif %}
@@ -85,8 +83,7 @@
       {% if page.videos %}
         <section class="portfolio-panel project-videos-panel">
           <div class="section-heading centered">
-            <p class="section-kicker">Gameplay</p>
-            <h2>{{ t.gameplay_video }}</h2>
+            <p class="section-kicker"><h2>{{ t.gameplay_video }}</h2></p>
           </div>
 
           <div class="project-video-grid">
@@ -99,8 +96,7 @@
 
       <section class="portfolio-panel story-panel project-summary-panel">
         <div class="section-heading centered">
-          <p class="section-kicker">Details</p>
-          <h2>{{ page.title }}</h2>
+          <p class="section-kicker"><h2>{{ t.details }}</h2></p>
         </div>
 
         <div class="story-stack project-summary-stack">
