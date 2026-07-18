@@ -13,7 +13,7 @@ technologies:
   - Zenject
   - Awaitable
   - DOTween
-priority: -4
+priority: -100
 lang: ru
 ---
 {% assign t = site.data.t[page.lang] %}
